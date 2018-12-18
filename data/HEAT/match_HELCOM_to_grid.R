@@ -26,4 +26,4 @@ df <- df %>% group_by(GRIDCODE,Category,Parameter,Unit,Response) %>%
   ungroup() %>%
   filter(!is.na(Category))
 
-write.table(df,file="data/indicators_eutro.csv",sep="\t",fileEncoding="UTF-8",row.names=F,col.names=T,quote=F)
+write.table(df,file="data/indicators_eutro.txt",sep="\t",fileEncoding="UTF-8",row.names=F,col.names=T,quote=F)
