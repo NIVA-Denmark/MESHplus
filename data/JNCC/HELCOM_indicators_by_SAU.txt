@@ -1,0 +1,1097 @@
+ID	Category	SAUID	IndicatorID	SAU	SpatialAssessmentUnit	Indicator	Unit	IndType	Bad	Threshold	Reference	Status
+1	Benthic	22	127	Kiel Bay 	Kiel Bay  - open sea	State of the soft-bottom macrofauna community	index	1	0	0.5	1	0.65
+2	Benthic	23	127	Bay of Mecklenburg 	Bay of Mecklenburg  - open sea	State of the soft-bottom macrofauna community	index	1	0	0.5	1	0.41
+3	Benthic	27	127	Eastern Gotland Basin 	Eastern Gotland Basin  - open sea	State of the soft-bottom macrofauna community	index	1	0	0.5	1	0.66
+4	Benthic	28	127	Western Gotland Basin 	Western Gotland Basin  - open sea	State of the soft-bottom macrofauna community	index	1	0	4	10.9	4.47
+5	Benthic	29	127	Gulf of Riga 	Gulf of Riga  - open sea	State of the soft-bottom macrofauna community	index	1	0	0.5	1	0.55
+6	Benthic	30	127	Northern Baltic Proper 	Northern Baltic Proper  - open sea	State of the soft-bottom macrofauna community	index	1	0	4	11	5.61
+7	Benthic	31	127	Gulf of Finland 	Gulf of Finland  - open sea	State of the soft-bottom macrofauna community	index	1	0	0.5	1	0.53
+8	Benthic	32	127	Åland Sea 	Åland Sea  - open sea	State of the soft-bottom macrofauna community	index	1	0	4	10.8	6.56
+9	Benthic	33	127	Bothnian Sea 	Bothnian Sea  - open sea	State of the soft-bottom macrofauna community	index	1	0	4	12.6	6.3
+10	Benthic	34	127	The Quark 	The Quark  - open sea	State of the soft-bottom macrofauna community	index	1	0	1.5	7.7	2.98
+11	Benthic	35	127	Bothnian Bay	Bothnian Bay - open sea	State of the soft-bottom macrofauna community	index	1	0	1.5	8.2	4.72
+12	Benthic	25	186	Bornholm Basin	Bornholm Basin	Oxygen Debt		1	7.33	6.37	0.96	6.84
+13	Benthic	26	186	Gdansk Basin Polish Coastal waters	Gulf of Gdansk	Oxygen Debt		1	10.47	8.66	3.24	9.26
+14	Benthic	27	186	Eastern Gotland Basin	Eastern Gotland Basin	Oxygen Debt		1	10.47	8.66	3.24	9.26
+15	Benthic	28	186	Western Gotland Basin	Western Gotland Basin	Oxygen Debt		1	10.47	8.66	3.24	9.26
+16	Benthic	30	186	Northern Baltic Proper	Northern Baltic Proper	Oxygen Debt		1	10.47	8.66	3.24	9.26
+17	Benthic	31	186	Gulf of Finland	Gulf of Finland	Oxygen Debt		1	10.47	8.66	3.24	9.26
+18	Benthic	114	272	GER-001	GER-001	Zoobenthos Quality element	EQR	1	0	0.6	1	0.571428597
+19	Benthic	115	272	GER-002	GER-002	Zoobenthos Quality element	EQR	1	0	0.6	1	0.612244886
+20	Benthic	116	272	GER-003	GER-003	Zoobenthos Quality element	EQR	1	0	0.6	1	0.491803267
+21	Benthic	117	272	GER-004	GER-004	Zoobenthos Quality element	EQR	1	0	0.6	1	0.521739141
+22	Benthic	118	272	GER-005	GER-005	Zoobenthos Quality element	EQR	1	0	0.6	1	0.550458699
+23	Benthic	119	272	GER-006	GER-006	Zoobenthos Quality element	EQR	1	0	0.6	1	0.410958893
+24	Benthic	120	272	GER-007	GER-007	Zoobenthos Quality element	EQR	1	0	0.6	1	0.05
+25	Benthic	121	272	GER-008	GER-008	Zoobenthos Quality element	EQR	1	0	0.6	1	0.428571436
+26	Benthic	122	272	GER-009	GER-009	Zoobenthos Quality element	EQR	1	0	0.6	1	0.379746825
+27	Benthic	123	272	GER-010	GER-010	Zoobenthos Quality element	EQR	1	0	0.6	1	0.631578955
+28	Benthic	124	272	GER-011	GER-011	Zoobenthos Quality element	EQR	1	0	0.6	1	0.582524288
+29	Benthic	125	272	GER-012	GER-012	Zoobenthos Quality element	EQR	1	0	0.6	1	0.508474599
+30	Benthic	126	272	GER-013	GER-013	Zoobenthos Quality element	EQR	1	0	0.6	1	0.560747636
+31	Benthic	127	272	GER-014	GER-014	Zoobenthos Quality element	EQR	1	0	0.6	1	0.189873413
+32	Benthic	128	272	GER-015	GER-015	Zoobenthos Quality element	EQR	1	0	0.6	1	0.48
+33	Benthic	130	272	GER-017	GER-017	Zoobenthos Quality element	EQR	1	0	0.6	1	0.189873413
+34	Benthic	131	272	GER-018	GER-018	Zoobenthos Quality element	EQR	1	0	0.6	1	0.550458699
+35	Benthic	132	272	GER-019	GER-019	Zoobenthos Quality element	EQR	1	0	0.6	1	0.410958893
+36	Benthic	133	272	GER-020	GER-020	Zoobenthos Quality element	EQR	1	0	0.6	1	0.229885067
+37	Benthic	134	272	GER-021	GER-021	Zoobenthos Quality element	EQR	1	0	0.6	1	0.340909093
+38	Benthic	135	272	GER-022	GER-022	Zoobenthos Quality element	EQR	1	0	0.6	1	0.508474599
+39	Benthic	136	272	GER-023	GER-023	Zoobenthos Quality element	EQR	1	0	0.6	1	0.491803267
+40	Benthic	137	272	GER-024	GER-024	Zoobenthos Quality element	EQR	1	0	0.6	1	0.530973454
+41	Benthic	138	272	GER-025	GER-025	Zoobenthos Quality element	EQR	1	0	0.6	1	0.652173901
+42	Benthic	139	272	GER-026	GER-026	Zoobenthos Quality element	EQR	1	0	0.6	1	0.697674407
+43	Benthic	140	272	GER-027	GER-027	Zoobenthos Quality element	EQR	1	0	0.6	1	0.419580435
+44	Benthic	141	272	GER-028	GER-028	Zoobenthos Quality element	EQR	1	0	0.6	1	0.550458699
+45	Benthic	142	272	GER-029	GER-029	Zoobenthos Quality element	EQR	1	0	0.6	1	0.280373818
+46	Benthic	143	272	GER-030	GER-030	Zoobenthos Quality element	EQR	1	0	0.6	1	0.521739141
+47	Benthic	144	272	GER-031	GER-031	Zoobenthos Quality element	EQR	1	0	0.6	1	0.16
+48	Benthic	145	272	GER-032	GER-032	Zoobenthos Quality element	EQR	1	0	0.6	1	0.521739141
+49	Benthic	146	272	GER-033	GER-033	Zoobenthos Quality element	EQR	1	0	0.6	1	0.550458699
+50	Benthic	147	272	GER-034	GER-034	Zoobenthos Quality element	EQR	1	0	0.6	1	0.550458699
+51	Benthic	148	272	GER-035	GER-035	Zoobenthos Quality element	EQR	1	0	0.6	1	0.550458699
+52	Benthic	149	272	GER-036	GER-036	Zoobenthos Quality element	EQR	1	0	0.6	1	0.49999998
+53	Benthic	150	272	GER-037	GER-037	Zoobenthos Quality element	EQR	1	0	0.6	1	0.550458699
+54	Benthic	151	272	GER-038	GER-038	Zoobenthos Quality element	EQR	1	0	0.6	1	0.48
+55	Benthic	152	272	GER-039	GER-039	Zoobenthos Quality element	EQR	1	0	0.6	1	0.612244886
+56	Benthic	153	272	GER-040	GER-040	Zoobenthos Quality element	EQR	1	0	0.6	1	0.49999998
+57	Benthic	154	272	GER-041	GER-041	Zoobenthos Quality element	EQR	1	0	0.6	1	0.451127805
+58	Benthic	156	272	GER-043	GER-043	Zoobenthos Quality element	EQR	1	0	0.6	1	0.48
+59	Benthic	231	272	GER-111	GER-111	Zoobenthos Quality element	EQR	1	0	0.6	1	0.428571436
+60	Benthic	215	272	EST-001	EST-001	Zoobenthos Quality element	EQR	1	0	0.5	1	0.569999993
+61	Benthic	217	272	EST-003	EST-003	Zoobenthos Quality element	EQR	1	0	0.5	1	0.600000024
+62	Benthic	218	272	EST-004	EST-004	Zoobenthos Quality element	EQR	1	0	0.5	1	0.589999974
+63	Benthic	219	272	EST-005	EST-005	Zoobenthos Quality element	EQR	1	0	0.5	1	0.49000001
+64	Benthic	220	272	EST-006	EST-006	Zoobenthos Quality element	EQR	1	0	0.5	1	0.430000007
+65	Benthic	221	272	EST-007	EST-007	Zoobenthos Quality element	EQR	1	0	0.5	1	0.620000005
+66	Benthic	222	272	EST-008	EST-008	Zoobenthos Quality element	EQR	1	0	0.5	1	0.5
+67	Benthic	224	272	EST-010	EST-010	Zoobenthos Quality element	EQR	1	0	0.5	1	0.579999983
+68	Benthic	225	272	EST-011	EST-011	Zoobenthos Quality element	EQR	1	0	0.5	1	0.589999974
+69	Benthic	226	272	EST-012	EST-012	Zoobenthos Quality element	EQR	1	0	0.5	1	0.50999999
+70	Benthic	227	272	EST-013	EST-013	Zoobenthos Quality element	EQR	1	0	0.5	1	0.50999999
+71	Benthic	229	272	EST-015	EST-015	Zoobenthos Quality element	EQR	1	0	0.5	1	0.589999974
+72	Benthic	100	272	FIN-001	FIN-001	BBI	EQR	1	0	0.57	1	0.5
+73	Benthic	101	272	FIN-002	FIN-002	BBI	EQR	1	0	0.54	1	0.540000021
+74	Benthic	102	272	FIN-003	FIN-003	BBI	EQR	1	0	0.51	1	0.340000004
+75	Benthic	103	272	FIN-004	FIN-004	BBI	EQR	1	0	0.56	1	0.370000005
+76	Benthic	104	272	FIN-005	FIN-005	BBI	EQR	1	0	0.53	1	0.649999976
+77	Benthic	105	272	FIN-006	FIN-006	BBI	EQR	1	0	0.58	1	0.460000008
+78	Benthic	106	272	FIN-007	FIN-007	BBI	EQR	1	0	0.59	1	0.469999999
+79	Benthic	107	272	FIN-008	FIN-008	BBI	EQR	1	0	0.57	1	0.930000007
+80	Benthic	108	272	FIN-009	FIN-009	BBI	EQR	1	0	0.55	1	0.540000021
+81	Benthic	109	272	FIN-010	FIN-010	BBI	EQR	1	0	0.55	1	0.720000029
+82	Benthic	110	272	FIN-011	FIN-011	BBI	EQR	1	0	0.55	1	0.469999999
+83	Benthic	160	272	LAT-003	LAT-003	Benthic Quality Index	index	1	0	4	14	4.5
+84	Benthic	161	272	LAT-004	LAT-004	Benthic Quality Index	index	1	0	4	14	5
+85	Benthic	162	272	LAT-005	LAT-005	Benthic Quality Index	index	1	0	4.5	15	6
+86	Benthic	191	272	SWE-001	SWE-001	Benthic Quality Index	EQR	1	0	0.66	1	0.529047619
+87	Benthic	192	272	SWE-003	SWE-003	Benthic Quality Index	EQR	1	0	0.66	1	0.55
+88	Benthic	193	272	SWE-004	SWE-004	Benthic Quality Index	EQR	1	0	0.66	1	0.595
+89	Benthic	194	272	SWE-005	SWE-005	Benthic Quality Index	EQR	1	0	0.66	1	0.64
+90	Benthic	195	272	SWE-006	SWE-006	Benthic Quality Index	EQR	1	0	0.29	1	0.354
+91	Benthic	196	272	SWE-007	SWE-007	Benthic Quality Index	EQR	1	0	0.25	1	0.346538462
+92	Benthic	197	272	SWE-008	SWE-008	Benthic Quality Index	EQR	1	0	0.29	1	0.525
+93	Benthic	198	272	SWE-009	SWE-009	Benthic Quality Index	EQR	1	0	0.33	1	0.499166667
+94	Benthic	199	272	SWE-010	SWE-010	Benthic Quality Index	EQR	1	0	0.4	1	0.6
+95	Benthic	200	272	SWE-011	SWE-011	Benthic Quality Index	EQR	1	0	0.29	1	0.461666667
+96	Benthic	201	272	SWE-012	SWE-012	Benthic Quality Index	EQR	1	0	0.29	1	0.352272727
+97	Benthic	202	272	SWE-013	SWE-013	Benthic Quality Index	EQR	1	0	0.25	1	0.215833333
+98	Benthic	203	272	SWE-014	SWE-014	Benthic Quality Index	EQR	1	0	0.29	1	0.525
+99	Benthic	204	272	SWE-015	SWE-015	Benthic Quality Index	EQR	1	0	0.29	1	0.525
+100	Benthic	205	272	SWE-016	SWE-016	Benthic Quality Index	EQR	1	0	0.29	1	0.206470588
+101	Benthic	206	272	SWE-017	SWE-017	Benthic Quality Index	EQR	1	0	0.31	1	0.335833333
+102	Benthic	207	272	SWE-018	SWE-018	Benthic Quality Index	EQR	1	0	0.31	1	0.237352941
+103	Benthic	208	272	SWE-019	SWE-019	Benthic Quality Index	EQR	1	0	0.31	1	0.265833333
+104	Benthic	209	272	SWE-020	SWE-020	Benthic Quality Index	EQR	1	0	0.31	1	0.26
+105	Benthic	210	272	SWE-021	SWE-021	Benthic Quality Index	EQR	1	0	0.31	1	0.4
+106	Benthic	211	272	SWE-022	SWE-022	Benthic Quality Index	EQR	1	0	0.15	1	0.171666667
+107	Benthic	212	272	SWE-023	SWE-023	Benthic Quality Index	EQR	1	0	0.14	1	0.355
+108	Benthic	213	272	SWE-024	SWE-024	Benthic Quality Index	EQR	1	0	0.3	1	0.247
+109	Benthic	214	272	SWE-025	SWE-025	Benthic Quality Index	EQR	1	0	0.66	1	0.55
+110	Benthic	164	272	LIT-002	LIT-002	Benthic Quality Index	EQR	1	0	0.69	1	0.73
+111	Benthic	165	272	LIT-003	LIT-003	Benthic Quality Index	EQR	1	0	0.69	1	0.37
+112	Benthic	166	272	LIT-004	LIT-004	Benthic Quality Index	EQR	1	0	0.68	1	0.3
+113	Benthic	167	272	LIT-005	LIT-005	Benthic Quality Index	EQR	1	0	0.71	1	0.37
+114	Benthic	168	272	LIT-006	LIT-006	Benthic Quality Index	EQR	1	0	0.58	1	0.65
+115	Benthic	111	272	FIN-012	FIN-012	Zoobenthos Quality element	EQR	1	0	0.34	0.59	0.25
+116	Benthic	112	272	FIN-013	FIN-013	Zoobenthos Quality element	EQR	1	0	0.32	0.6	0.340000004
+117	Benthic	113	272	FIN-014	FIN-014	Zoobenthos Quality element	EQR	1	0	0.37	0.68	0.400000006
+118	Macrophytes	115	204	GER-002	GER-002	Macrovegetation Quality element	EQR	1	0	0.6	1	0.521739141
+119	Macrophytes	116	204	GER-003	GER-003	Macrovegetation Quality element	EQR	1	0	0.6	1	0.521739141
+120	Macrophytes	117	204	GER-004	GER-004	Macrovegetation Quality element	EQR	1	0	0.6	1	0.370370369
+121	Macrophytes	118	204	GER-005	GER-005	Macrovegetation Quality element	EQR	1	0	0.6	1	0.24999999
+122	Macrophytes	120	204	GER-007	GER-007	Macrovegetation Quality element	EQR	1	0	0.6	1	0.491803267
+123	Macrophytes	121	204	GER-008	GER-008	Macrovegetation Quality element	EQR	1	0	0.6	1	0.540540534
+124	Macrophytes	122	204	GER-009	GER-009	Macrovegetation Quality element	EQR	1	0	0.6	1	0.48
+125	Macrophytes	123	204	GER-010	GER-010	Macrovegetation Quality element	EQR	1	0	0.6	1	0.2
+126	Macrophytes	124	204	GER-011	GER-011	Macrovegetation Quality element	EQR	1	0	0.6	1	0.550458699
+127	Macrophytes	125	204	GER-012	GER-012	Macrovegetation Quality element	EQR	1	0	0.6	1	0.4
+128	Macrophytes	126	204	GER-013	GER-013	Macrovegetation Quality element	EQR	1	0	0.6	1	0.461538478
+129	Macrophytes	127	204	GER-014	GER-014	Macrovegetation Quality element	EQR	1	0	0.6	1	0.410958893
+130	Macrophytes	128	204	GER-015	GER-015	Macrovegetation Quality element	EQR	1	0	0.6	1	0.370370369
+131	Macrophytes	129	204	GER-016	GER-016	Macrovegetation Quality element	EQR	1	0	0.6	1	0.2
+132	Macrophytes	131	204	GER-018	GER-018	Macrovegetation Quality element	EQR	1	0	0.6	1	0.340909093
+133	Macrophytes	133	204	GER-020	GER-020	Macrovegetation Quality element	EQR	1	0	0.6	1	0.3
+134	Macrophytes	134	204	GER-021	GER-021	Macrovegetation Quality element	EQR	1	0	0.6	1	0.309278341
+135	Macrophytes	135	204	GER-022	GER-022	Macrovegetation Quality element	EQR	1	0	0.6	1	0.49999998
+136	Macrophytes	137	204	GER-024	GER-024	Macrovegetation Quality element	EQR	1	0	0.6	1	0.666666684
+137	Macrophytes	138	204	GER-025	GER-025	Macrovegetation Quality element	EQR	1	0	0.6	1	0.24
+138	Macrophytes	139	204	GER-026	GER-026	Macrovegetation Quality element	EQR	1	0	0.6	1	0.1
+139	Macrophytes	140	204	GER-027	GER-027	Macrovegetation Quality element	EQR	1	0	0.6	1	0.06
+140	Macrophytes	141	204	GER-028	GER-028	Macrovegetation Quality element	EQR	1	0	0.6	1	0.441176466
+141	Macrophytes	142	204	GER-030	GER-030	Macrovegetation Quality element	EQR	1	0	0.6	1	0.508474599
+142	Macrophytes	145	204	GER-032	GER-032	Macrovegetation Quality element	EQR	1	0	0.6	1	0.350877185
+143	Macrophytes	146	204	GER-033	GER-033	Macrovegetation Quality element	EQR	1	0	0.6	1	0.560747636
+144	Macrophytes	147	204	GER-034	GER-034	Macrovegetation Quality element	EQR	1	0	0.6	1	0.48
+145	Macrophytes	149	204	GER-036	GER-036	Macrovegetation Quality element	EQR	1	0	0.6	1	0.410958893
+146	Macrophytes	150	204	GER-037	GER-037	Macrovegetation Quality element	EQR	1	0	0.6	1	0.6
+147	Macrophytes	151	204	GER-038	GER-038	Macrovegetation Quality element	EQR	1	0	0.6	1	0.6
+148	Macrophytes	153	204	GER-040	GER-040	Macrovegetation Quality element	EQR	1	0	0.6	1	0.180180184
+149	Macrophytes	154	204	GER-041	GER-041	Macrovegetation Quality element	EQR	1	0	0.6	1	0.270270267
+150	Macrophytes	156	204	GER-043	GER-043	Macrovegetation Quality element	EQR	1	0	0.6	1	0.309278341
+151	Macrophytes	231	204	GER-111	GER-111	Macrovegetation Quality element	EQR	1	0	0.6	1	0.4
+152	Macrophytes	215	204	EST-001	EST-001	Macrophytes macroflora depth distribution	m	1	0	5	10	6.46999979
+153	Macrophytes	217	204	EST-003	EST-003	Macrophytes macroflora depth distribution	m	1	0	7.5	15	9.770000458
+154	Macrophytes	218	204	EST-004	EST-004	Macrophytes macroflora depth distribution	m	1	0	7.5	15	8.229999542
+155	Macrophytes	219	204	EST-005	EST-005	Macrophytes macroflora depth distribution	m	1	0	7.5	15	8.449999809
+156	Macrophytes	220	204	EST-006	EST-006	Macrophytes macroflora depth distribution	m	1	0	7.5	15	8.199999809
+157	Macrophytes	221	204	EST-007	EST-007	Macrophytes macroflora depth distribution	m	1	0	7.5	15	10.19999981
+158	Macrophytes	224	204	EST-010	EST-010	Macrophytes macroflora depth distribution	m	1	0	7.5	15	13.80000019
+159	Macrophytes	225	204	EST-011	EST-011	Macrophytes macroflora depth distribution	m	1	0	7.5	15	13.39999962
+160	Macrophytes	226	204	EST-012	EST-012	Macrophytes macroflora depth distribution	m	1	0	6	12	8.600000381
+161	Macrophytes	227	204	EST-013	EST-013	Macrophytes macroflora depth distribution	m	1	0	2.5	5	3.210000038
+162	Macroalgae	215	194	EST-001	EST-001	Fucus vesiculosus depth distribution	m	1	0	2.5	5	1.24000001
+163	Macroalgae	217	194	EST-003	EST-003	Fucus vesiculosus depth distribution	m	1	0	3.5	7	6.329999924
+164	Macroalgae	218	194	EST-004	EST-004	Fucus vesiculosus depth distribution	m	1	0	3.5	7	4.46999979
+165	Macroalgae	219	194	EST-005	EST-005	Fucus vesiculosus depth distribution	m	1	0	3.5	7	4.659999847
+166	Macroalgae	220	194	EST-006	EST-006	Fucus vesiculosus depth distribution	m	1	0	3.5	7	1.600000024
+167	Macroalgae	221	194	EST-007	EST-007	Fucus vesiculosus depth distribution	m	1	0	3.5	7	3.799999952
+168	Macroalgae	222	194	EST-008	EST-008	Fucus vesiculosus depth distribution	m	1	0	3.5	7	3.00999999
+169	Macroalgae	224	194	EST-010	EST-010	Fucus vesiculosus depth distribution	m	1	0	3.5	7	4
+170	Macroalgae	225	194	EST-011	EST-011	Fucus vesiculosus depth distribution	m	1	0	3.5	7	1.799999952
+171	Macroalgae	226	194	EST-012	EST-012	Fucus vesiculosus depth distribution	m	1	0	2.5	5	3.5
+172	Benthic	215	234	EST-001	EST-001	Proportion of perennial species	%	1	0	42.5	85	22.38999939
+173	Benthic	217	234	EST-003	EST-003	Proportion of perennial species	%	1	0	77.4	90	88.40000153
+174	Benthic	218	234	EST-004	EST-004	Proportion of perennial species	%	1	0	77.4	90	79.98000336
+175	Benthic	219	234	EST-005	EST-005	Proportion of perennial species	%	1	0	77.4	90	68.12999725
+176	Benthic	220	234	EST-006	EST-006	Proportion of perennial species	%	1	0	77.4	90	25
+177	Benthic	221	234	EST-007	EST-007	Proportion of perennial species	%	1	0	45	90	73.19999695
+178	Benthic	222	234	EST-008	EST-008	Proportion of perennial species	%	1	0	35	70	34.27000046
+179	Benthic	224	234	EST-010	EST-010	Proportion of perennial species	%	1	0	45	90	39
+180	Benthic	225	234	EST-011	EST-011	Proportion of perennial species	%	1	0	45	90	42
+181	Benthic	226	234	EST-012	EST-012	Proportion of perennial species	%	1	0	40	80	57
+182	Benthic	227	234	EST-013	EST-013	Proportion of perennial species	%	1	0	30	60	9.010000229
+183	Macrophytes	100	194	FIN-001	FIN-001	Macrophytes sheltered	m	1	0	3.2	4.2	1.5
+184	Macrophytes	101	194	FIN-002	FIN-002	Macrophytes sheltered	m	1	0	5.5	7	2
+185	Macrophytes	102	194	FIN-003	FIN-003	Macrophytes sheltered	m	1	0	3.5	4	2.5
+186	Macrophytes	103	194	FIN-004	FIN-004	Macrophytes sheltered	m	1	0	4	5.5	3.680000067
+187	Macrophytes	100	204	FIN-001	FIN-001	Macrovegetation Quality element	m	1	3	4	5.5	1.9
+188	Macrophytes	101	204	FIN-002	FIN-002	Macrovegetation Quality element	m	1	3	6	8	3.28
+189	Macrophytes	102	204	FIN-003	FIN-003	Macrovegetation Quality element	m	1	3	3.5	5	3.55
+190	Macrophytes	103	204	FIN-004	FIN-004	Macrovegetation Quality element	m	1	3	5	6.5	3.68
+191	Macrophytes	106	204	FIN-007	FIN-007	Macrovegetation Quality element	m	1	3	3.7	5	5.35
+192	Macrophytes	107	204	FIN-008	FIN-008	Macrovegetation Quality element	m	1	3	4.4	6	6.35
+193	Macrophytes	108	204	FIN-009	FIN-009	Macrovegetation Quality element	m	1	3	5.2	7	3.05
+194	Macrophytes	158	204	LAT-001	LAT-001	Phytobenthos Ecological Quality Index	m	1	0	15	20	14.8
+195	Macrophytes	161	204	LAT-004	LAT-004	Phytobenthos Ecological Quality Index	EQR	1	0	0.75	1	0.59
+196	Benthic	158	194	LAT-001	LAT-001	Furcellaria lumbricalis depth distribution	EQR	1	0	0.6	1	0.88
+197	Macrophytes	191	204	SWE-001	SWE-001	Macrovegetation Quality element	EQR	1	0	0.6	1	0.7
+198	Macrophytes	192	204	SWE-003	SWE-003	Macrovegetation Quality element	EQR	1	0	0.6	1	0.9
+199	Macrophytes	193	204	SWE-004	SWE-004	Macrovegetation Quality element	EQR	1	0	0.6	1	0.866666667
+200	Macrophytes	194	204	SWE-005	SWE-005	Macrovegetation Quality element	EQR	1	0	0.6	1	0.8
+201	Macrophytes	195	204	SWE-006	SWE-006	Macrovegetation Quality element	EQR	1	0	0.6	1	0.722222222
+202	Macrophytes	196	204	SWE-007	SWE-007	Macrovegetation Quality element	EQR	1	0	0.6	1	0.722222222
+203	Macrophytes	197	204	SWE-008	SWE-008	Macrovegetation Quality element	EQR	1	0	0.6	1	0.766666667
+204	Macrophytes	198	204	SWE-009	SWE-009	Macrovegetation Quality element	EQR	1	0	0.6	1	0.64
+205	Macrophytes	199	204	SWE-010	SWE-010	Macrovegetation Quality element	EQR	1	0	0.6	1	0.833333333
+206	Macrophytes	200	204	SWE-011	SWE-011	Macrovegetation Quality element	EQR	1	0	0.6	1	0.8
+207	Macrophytes	201	204	SWE-012	SWE-012	Macrovegetation Quality element	EQR	1	0	0.6	1	0.82
+208	Macrophytes	202	204	SWE-013	SWE-013	Macrovegetation Quality element	EQR	1	0	0.6	1	0.42
+209	Macrophytes	203	204	SWE-014	SWE-014	Macrovegetation Quality element	EQR	1	0	0.6	1	0.9
+210	Macrophytes	204	204	SWE-015	SWE-015	Macrovegetation Quality element	EQR	1	0	0.6	1	0.9
+211	Macrophytes	205	204	SWE-016	SWE-016	Macrovegetation Quality element	EQR	1	0	0.6	1	0.623076923
+212	Macrophytes	206	204	SWE-017	SWE-017	Macrovegetation Quality element	EQR	1	0	0.6	1	0.8
+213	Macrophytes	207	204	SWE-018	SWE-018	Macrovegetation Quality element	EQR	1	0	0.6	1	0.777777778
+214	Macrophytes	208	204	SWE-019	SWE-019	Macrovegetation Quality element	EQR	1	0	0.6	1	0.775
+215	Benthic	165	204	LIT-003	LIT-003	Furcellaria lumbricalis depth distribution	EQR	1	0	0.75	1	0.37
+216	Macrophytes	111	204	FIN-012	FIN-012	Macrovegetation Quality element	EQR	1	0	0.61	1	0.57
+217	Macrophytes	112	204	FIN-013	FIN-013	Macrovegetation Quality element	EQR	1	0	0.61	1	0.65
+218	Macrophytes	113	204	FIN-014	FIN-014	Macrovegetation Quality element	EQR	1	0	0.61	1	0.62
+219	Benthic	114	214	GER-001	GER-001	Secchi Depth	m	1	0	7.2	9.8	3.25
+220	Benthic	115	214	GER-002	GER-002	Secchi Depth	m	1	0	7.2	9.8	3.25
+221	Benthic	116	214	GER-003	GER-003	Secchi Depth	m	1	0	7.2	9.8	3.80
+222	Benthic	117	214	GER-004	GER-004	Secchi Depth	m	1	0	7.2	9.7	4.31
+223	Benthic	118	214	GER-005	GER-005	Secchi Depth	m	1	0	6.1	8.3	1.70
+224	Benthic	119	214	GER-006	GER-006	Secchi Depth	m	1	0	7.2	9.7	4.00
+225	Benthic	120	214	GER-007	GER-007	Secchi Depth	m	1	0	1.7	2.5	0.20
+226	Benthic	121	214	GER-008	GER-008	Secchi Depth	m	1	0	1.7	2.5	0.30
+227	Benthic	122	214	GER-009	GER-009	Secchi Depth	m	1	0	6.1	8.3	0.45
+228	Benthic	123	214	GER-010	GER-010	Secchi Depth	m	1	0	6.3	8.5	2.50
+229	Benthic	124	214	GER-011	GER-011	Secchi Depth	m	1	0	6.1	8.3	1.47
+230	Benthic	125	214	GER-012	GER-012	Secchi Depth	m	1	0	6.1	8.3	1.00
+231	Benthic	126	214	GER-013	GER-013	Secchi Depth	m	1	0	6.1	8.3	1.33
+232	Benthic	127	214	GER-014	GER-014	Secchi Depth	m	1	0	6.1	8.3	0.30
+233	Benthic	128	214	GER-015	GER-015	Secchi Depth	m	1	0	6.3	8.5	3.88
+234	Benthic	129	214	GER-016	GER-016	Secchi Depth	m	1	0	1.7	2.5	0.52
+235	Benthic	130	214	GER-017	GER-017	Secchi Depth	m	1	0	1.7	2.5	0.50
+236	Benthic	131	214	GER-018	GER-018	Secchi Depth	m	1	0	6.3	8.5	2.25
+237	Benthic	132	214	GER-019	GER-019	Secchi Depth	m	1	0	6.3	8.5	1.72
+238	Benthic	133	214	GER-020	GER-020	Secchi Depth	m	1	0	1.7	2.5	0.59
+239	Benthic	134	214	GER-021	GER-021	Secchi Depth	m	1	0	7.2	9.8	3.40
+240	Benthic	135	214	GER-022	GER-022	Secchi Depth	m	1	0	7.2	9.7	5.10
+241	Benthic	136	214	GER-023	GER-023	Secchi Depth	m	1	0	7.2	9.7	5.10
+242	Benthic	137	214	GER-024	GER-024	Secchi Depth	m	1	0	7.2	9.7	5.00
+243	Benthic	138	214	GER-025	GER-025	Secchi Depth	m	1	0	7.2	9.8	1.70
+244	Benthic	139	214	GER-026	GER-026	Secchi Depth	m	1	0	6.1	8.3	0.70
+245	Benthic	140	214	GER-027	GER-027	Secchi Depth	m	1	0	6.1	8.3	0.70
+246	Benthic	141	214	GER-028	GER-028	Secchi Depth	m	1	0	7.2	9.7	5.00
+247	Benthic	142	214	GER-029	GER-029	Secchi Depth	m	1	0	7.2	9.7	4.70
+248	Benthic	143	214	GER-030	GER-030	Secchi Depth	m	1	0	7.2	9.7	5.80
+249	Benthic	144	214	GER-031	GER-031	Secchi Depth	m	1	0	7.2	9.7	5.50
+250	Benthic	145	214	GER-032	GER-032	Secchi Depth	m	1	0	7.2	9.8	3.40
+251	Benthic	146	214	GER-033	GER-033	Secchi Depth	m	1	0	7.2	9.7	5.80
+252	Benthic	147	214	GER-034	GER-034	Secchi Depth	m	1	0	7.2	9.7	4.90
+253	Benthic	148	214	GER-035	GER-035	Secchi Depth	m	1	0	7.2	9.7	4.90
+254	Benthic	149	214	GER-036	GER-036	Secchi Depth	m	1	0	7.2	9.7	4.40
+255	Benthic	150	214	GER-037	GER-037	Secchi Depth	m	1	0	7.2	9.8	3.50
+256	Benthic	151	214	GER-038	GER-038	Secchi Depth	m	1	0	7.2	9.7	5.60
+257	Benthic	152	214	GER-039	GER-039	Secchi Depth	m	1	0	7.2	9.7	5.60
+258	Benthic	153	214	GER-040	GER-040	Secchi Depth	m	1	0	7.2	9.7	5.20
+259	Benthic	154	214	GER-041	GER-041	Secchi Depth	m	1	0	7.2	9.7	4.80
+260	Benthic	155	214	GER-042	GER-042	Secchi Depth	m	1	0	7.2	9.8	2.40
+261	Benthic	156	214	GER-043	GER-043	Secchi Depth	m	1	0	6.1	8.3	2.10
+262	Benthic	157	214	GER-044	GER-044	Secchi Depth	m	1	0	6.1	8.3	1.30
+263	Benthic	231	214	GER-111	GER-111	Secchi Depth	m	1	0	6.1	8.3	0.90
+264	Benthic	215	214	EST-001	EST-001	Secchi Depth	m	1	0	3.6	4.8	3
+265	Benthic	217	214	EST-003	EST-003	Secchi Depth	m	1	0	4.5	6	4.800000191
+266	Benthic	218	214	EST-004	EST-004	Secchi Depth	m	1	0	4.5	6	5.599999905
+267	Benthic	219	214	EST-005	EST-005	Secchi Depth	m	1	0	4.5	6	4.119999886
+268	Benthic	220	214	EST-006	EST-006	Secchi Depth	m	1	0	4.5	6	4.900000095
+269	Benthic	221	214	EST-007	EST-007	Secchi Depth	m	1	0	6.5	8.3	4.900000095
+270	Benthic	222	214	EST-008	EST-008	Secchi Depth	m	1	0	4.9	6.5	1.899999976
+271	Benthic	224	214	EST-010	EST-010	Secchi Depth	m	1	0	6.5	8.3	5.5
+272	Benthic	225	214	EST-011	EST-011	Secchi Depth	m	1	0	6.5	8.3	5.900000095
+273	Benthic	226	214	EST-012	EST-012	Secchi Depth	m	1	0	4.2	5.5	3.099999905
+274	Benthic	227	214	EST-013	EST-013	Secchi Depth	m	1	0	3.2	4.2	1.340000033
+275	Benthic	100	214	FIN-001	FIN-001	Secchi Depth	ER	1	0	4.5	9	1.45
+276	Benthic	101	214	FIN-002	FIN-002	Secchi Depth	ER	1	0	7.3	9	3.47
+277	Benthic	102	214	FIN-003	FIN-003	Secchi Depth	ER	1	0	4.5	9	1.7
+278	Benthic	103	214	FIN-004	FIN-004	Secchi Depth	ER	1	0	5.5	9	3.7
+279	Benthic	104	214	FIN-005	FIN-005	Secchi Depth	ER	1	0	5.8	9	2.4
+280	Benthic	105	214	FIN-006	FIN-006	Secchi Depth	ER	1	0	3.6	9	1.5
+281	Benthic	106	214	FIN-007	FIN-007	Secchi Depth	ER	1	0	5.9	9	3.7
+282	Benthic	107	214	FIN-008	FIN-008	Secchi Depth	ER	1	0	5.3	9	2.1
+283	Benthic	108	214	FIN-009	FIN-009	Secchi Depth	ER	1	0	6.5	9	3.8
+284	Benthic	109	214	FIN-010	FIN-010	Secchi Depth	ER	1	0	3.8	9	2.13
+285	Benthic	110	214	FIN-011	FIN-011	Secchi Depth	ER	1	0	5.2	9	3.4
+286	Benthic	158	214	LAT-001	LAT-001	Secchi Depth	m	1	0	4.5	7	3.799999952
+287	Benthic	159	214	LAT-002	LAT-002	Secchi Depth	m	1	0	4.5	7	4.5
+288	Benthic	160	214	LAT-003	LAT-003	Secchi Depth	m	1	0	4	6	2.900000095
+289	Benthic	161	214	LAT-004	LAT-004	Secchi Depth	m	1	0	4	6	3.099999905
+290	Benthic	162	214	LAT-005	LAT-005	Secchi Depth	m	1	0	3	5	2.599999905
+291	Benthic	173	214	POL-005	POL-005	Secchi Depth	m	1	0	4.5	7.5	4.199999809
+292	Benthic	174	214	POL-006	POL-006	Secchi Depth	m	1	0	4.5	7.5	5
+293	Benthic	175	214	POL-007	POL-007	Secchi Depth	m	1	0	4.5	7.5	1.899999976
+294	Benthic	176	214	POL-008	POL-008	Secchi Depth	m	1	0	3	5	1.899999976
+295	Benthic	177	214	POL-009	POL-009	Secchi Depth	m	1	0	3.75	6.25	1.600000024
+296	Benthic	178	214	POL-010	POL-010	Secchi Depth	m	1	0	5.6	9.4	4.599999905
+297	Benthic	179	214	POL-011	POL-011	Secchi Depth	m	1	0	3.5	5.9	4.800000191
+298	Benthic	180	214	POL-012	POL-012	Secchi Depth	m	1	0	5.6	9.4	2.400000095
+299	Benthic	181	214	POL-013	POL-013	Secchi Depth	m	1	0	5.6	9.4	3.5
+300	Benthic	182	214	POL-014	POL-014	Secchi Depth	m	1	0	5.6	9.4	4.099999905
+301	Benthic	183	214	POL-015	POL-015	Secchi Depth	m	1	0	5.6	9.4	4.400000095
+302	Benthic	184	214	POL-016	POL-016	Secchi Depth	m	1	0	5.6	9.4	3.599999905
+303	Benthic	185	214	POL-017	POL-017	Secchi Depth	m	1	0	5.6	9.4	4.199999809
+304	Benthic	186	214	POL-018	POL-018	Secchi Depth	m	1	0	3.8	6.2	2.099999905
+305	Benthic	187	214	POL-019	POL-019	Secchi Depth	m	1	0	5.6	9.4	3.599999905
+306	Benthic	170	214	POL-002	POL-002	Secchi depth	m	1	0	1.9	3.1	1.100000024
+307	Benthic	171	214	POL-003	POL-003	Secchi depth	m	1	0	0.75	1.25	0.600000024
+308	Benthic	172	214	POL-004	POL-004	Secchi depth	m	1	0	3.4	5.6	3.799999952
+309	Benthic	191	214	SWE-001	SWE-001	Secchi Depth	EQR	1	0	0.69	1	0.630769231
+310	Benthic	192	214	SWE-003	SWE-003	Secchi Depth	EQR	1	0	0.76	1	0.662
+311	Benthic	193	214	SWE-004	SWE-004	Secchi Depth	EQR	1	0	0.76	1	0.655
+312	Benthic	194	214	SWE-005	SWE-005	Secchi Depth	EQR	1	0	0.75	1	0.6
+313	Benthic	195	214	SWE-006	SWE-006	Secchi Depth	EQR	1	0	0.7	1	0.563181818
+314	Benthic	196	214	SWE-007	SWE-007	Secchi Depth	EQR	1	0	0.7	1	0.676071429
+315	Benthic	197	214	SWE-008	SWE-008	Secchi Depth	EQR	1	0	0.7	1	0.602727273
+316	Benthic	198	214	SWE-009	SWE-009	Secchi Depth	EQR	1	0	0.7	1	0.492857143
+317	Benthic	199	214	SWE-010	SWE-010	Secchi Depth	EQR	1	0	0.7	1	0.55
+318	Benthic	200	214	SWE-011	SWE-011	Secchi Depth	EQR	1	0	0.7	1	0.519247312
+319	Benthic	201	214	SWE-012	SWE-012	Secchi Depth	EQR	1	0	0.7	1	0.471186441
+320	Benthic	202	214	SWE-013	SWE-013	Secchi Depth	EQR	1	0	0.7	1	0.277777778
+321	Benthic	203	214	SWE-014	SWE-014	Secchi Depth	EQR	1	0	0.7	1	0.525
+322	Benthic	204	214	SWE-015	SWE-015	Secchi Depth	EQR	1	0	0.7	1	0.559772727
+323	Benthic	205	214	SWE-016	SWE-016	Secchi Depth	EQR	1	0	0.7	1	0.561764706
+324	Benthic	206	214	SWE-017	SWE-017	Secchi Depth	EQR	1	0	0.7	1	0.560454545
+325	Benthic	207	214	SWE-018	SWE-018	Secchi Depth	EQR	1	0	0.44	1	0.639512195
+326	Benthic	208	214	SWE-019	SWE-019	Secchi Depth	EQR	1	0	0.44	1	0.5765
+327	Benthic	209	214	SWE-020	SWE-020	Secchi Depth	EQR	1	0	0.44	1	0.560333333
+328	Benthic	210	214	SWE-021	SWE-021	Secchi Depth	EQR	1	0	0.44	1	0.555
+329	Benthic	211	214	SWE-022	SWE-022	Secchi Depth	EQR	1	0	0.44	1	0.737987805
+330	Benthic	212	214	SWE-023	SWE-023	Secchi Depth	EQR	1	0	0.44	1	0.723
+331	Benthic	213	214	SWE-024	SWE-024	Secchi Depth	EQR	1	0	0.7	1	0.572631579
+332	Benthic	214	214	SWE-025	SWE-025	Secchi Depth	EQR	1	0	0.67	1	0.56
+333	Benthic	159	214	LIT-002	LIT-002	Secchi Depth	m	1	0	5	7.2	3.59
+334	Benthic	160	214	LIT-003	LIT-003	Secchi Depth	m	1	0	5	7.2	2.90
+335	Benthic	111	214	FIN-012	FIN-012	Secchi Depth	m	1	0	3.7	5.3	1.6
+336	Benthic	112	214	FIN-013	FIN-013	Secchi Depth	m	1	0	5.3	7.5	3.3
+337	Benthic	113	214	FIN-014	FIN-014	Secchi Depth	m	1	0	6.3	9	4.5
+338	Benthic	170	212	POL-002	POL-002	Oxygen	mg/l	1	0	4.2	7.8	5.199999809
+339	Benthic	171	212	POL-003	POL-003	Oxygen	mg/l	1	0	4.2	7.8	5
+340	Benthic	172	212	POL-004	POL-004	Oxygen	mg/l	1	0	4.2	7.8	5
+341	Benthic	173	212	POL-005	POL-005	Oxygen	mg/l	1	0	4.2	7.8	5.900000095
+342	Benthic	174	212	POL-006	POL-006	Oxygen	mg/l	1	0	4.2	7.8	7.300000191
+343	Benthic	175	212	POL-007	POL-007	Oxygen	mg/l	1	0	4.2	7.8	7.400000095
+344	Benthic	176	212	POL-008	POL-008	Oxygen	mg/l	1	0	4.2	7.8	6.5
+345	Benthic	177	212	POL-009	POL-009	Oxygen	mg/l	1	0	4.2	7.8	6.599999905
+346	Benthic	178	212	POL-010	POL-010	Oxygen	mg/l	1	0	4.2	8.199999809	8.199999809
+347	Benthic	179	212	POL-011	POL-011	Oxygen	mg/l	1	0	4.2	7.900000095	7.900000095
+348	Benthic	180	212	POL-012	POL-012	Oxygen	mg/l	1	0	4.2	7.8	7.300000191
+349	Benthic	181	212	POL-013	POL-013	Oxygen	mg/l	1	0	4.2	7.8	6.300000191
+350	Benthic	182	212	POL-014	POL-014	Oxygen	mg/l	1	0	4.2	8.100000381	8.100000381
+351	Benthic	183	212	POL-015	POL-015	Oxygen	mg/l	1	0	4.2	8.399999619	8.399999619
+352	Benthic	184	212	POL-016	POL-016	Oxygen	mg/l	1	0	4.2	8.800000191	8.800000191
+353	Benthic	185	212	POL-017	POL-017	Oxygen	mg/l	1	0	4.2	8.199999809	8.199999809
+354	Benthic	186	212	POL-018	POL-018	Oxygen	mg/l	1	0	4.2	7.8	7
+355	Benthic	187	212	POL-019	POL-019	Oxygen	mg/l	1	0	4.2	7.8	6.400000095
+356	Benthic	191	212	SWE-001	SWE-001	Oxygen	ml/l	1	0	0.6	3.5	0.923076923
+357	Benthic	192	212	SWE-003	SWE-003	Oxygen	ml/l	1	0	0.6	3.5	0.96
+358	Benthic	193	212	SWE-004	SWE-004	Oxygen	ml/l	1	0	0.6	3.5	0.738
+359	Benthic	194	212	SWE-005	SWE-005	Oxygen	ml/l	1	0	0.6	3.5	0.815
+360	Benthic	195	212	SWE-006	SWE-006	Oxygen	ml/l	1	0	0.6	3.5	1
+361	Benthic	196	212	SWE-007	SWE-007	Oxygen	ml/l	1	0	0.6	3.5	1
+362	Benthic	197	212	SWE-008	SWE-008	Oxygen	ml/l	1	0	0.6	3.5	1
+363	Benthic	198	212	SWE-009	SWE-009	Oxygen	ml/l	1	0	0.6	3.5	0.988888889
+364	Benthic	199	212	SWE-010	SWE-010	Oxygen	ml/l	1	0	0.6	3.5	0.58333333
+365	Benthic	200	212	SWE-011	SWE-011	Oxygen	ml/l	1	0	0.6	3.5	1
+366	Benthic	201	212	SWE-012	SWE-012	Oxygen	ml/l	1	0	0.6	3.5	0.9028813
+367	Benthic	202	212	SWE-013	SWE-013	Oxygen	ml/l	1	0	0.6	3.5	0.805
+368	Benthic	203	212	SWE-014	SWE-014	Oxygen	ml/l	1	0	0.6	3.5	0.4716667
+369	Benthic	205	212	SWE-016	SWE-016	Oxygen	ml/l	1	0	0.6	3.5	0.98
+370	Benthic	206	212	SWE-017	SWE-017	Oxygen	ml/l	1	0	0.6	3.5	1
+371	Benthic	207	212	SWE-018	SWE-018	Oxygen	ml/l	1	0	0.6	3.5	0.995348837
+372	Benthic	208	212	SWE-019	SWE-019	Oxygen	ml/l	1	0	0.6	3.5	1
+373	Benthic	209	212	SWE-020	SWE-020	Oxygen	ml/l	1	0	0.6	3.5	1
+374	Benthic	210	212	SWE-021	SWE-021	Oxygen	ml/l	1	0	0.6	3.5	1
+375	Benthic	211	212	SWE-022	SWE-022	Oxygen	ml/l	1	0	0.6	3.5	0.992941176
+376	Benthic	212	212	SWE-023	SWE-023	Oxygen	ml/l	1	0	0.6	3.5	1
+377	Benthic	214	212	SWE-025	SWE-025	Oxygen	ml/l	1	0	0.6	3.5	0.7225
+378	Benthic	232	272	DEN-001	DEN-001	DKI	EQR	1	0	0.68	1	0.68
+379	Benthic	233	272	DEN-002	DEN-002	DKI	EQR	1	0	0.68	1	0.68
+380	Benthic	236	272	DEN-005	DEN-005	DKI	EQR	1	0	0.68	1	0.71
+381	Benthic	237	272	DEN-006	DEN-006	DKI	EQR	1	0	0.68	1	0.65
+382	Benthic	239	272	DEN-008	DEN-008	DKI	EQR	1	0	0.68	1	0.52
+383	Benthic	242	272	DEN-011	DEN-011	DKI	EQR	1	0	0.68	1	0.80
+384	Benthic	243	272	DEN-012	DEN-012	DKI	EQR	1	0	0.68	1	0.63
+385	Benthic	245	272	DEN-014	DEN-014	DKI	EQR	1	0	0.68	1	0.69
+386	Benthic	248	272	DEN-017	DEN-017	DKI	EQR	1	0	0.68	1	0.78
+387	Benthic	252	272	DEN-021	DEN-021	DKI	EQR	1	0	0.68	1	0.76
+388	Benthic	253	272	DEN-022	DEN-022	DKI	EQR	1	0	0.68	1	0.84
+389	Benthic	254	272	DEN-023	DEN-023	DKI	EQR	1	0	0.68	1	0.83
+390	Benthic	258	272	DEN-027	DEN-027	DKI	EQR	1	0	0.68	1	0.62
+391	Benthic	279	272	DEN-048	DEN-048	DKI	EQR	1	0	0.68	1	0.67
+392	Benthic	280	272	DEN-049	DEN-049	DKI	EQR	1	0	0.68	1	0.73
+393	Benthic	282	272	DEN-051	DEN-051	DKI	EQR	1	0	0.72	1	0.64
+394	Benthic	283	272	DEN-052	DEN-052	DKI	EQR	1	0	0.68	1	0.64
+395	Benthic	284	272	DEN-053	DEN-053	DKI	EQR	1	0	0.68	1	0.64
+396	Benthic	286	272	DEN-055	DEN-055	DKI	EQR	1	0	0.68	1	0.76
+397	Benthic	291	272	DEN-060	DEN-060	DKI	EQR	1	0	0.68	1	0.22
+398	Benthic	297	272	DEN-066	DEN-066	DKI	EQR	1	0	0.68	1	0.42
+399	Benthic	299	272	DEN-068	DEN-068	DKI	EQR	1	0	0.68	1	0.52
+400	Benthic	300	272	DEN-069	DEN-069	DKI	EQR	1	0	0.68	1	0.55
+401	Benthic	303	272	DEN-072	DEN-072	DKI	EQR	1	0	0.68	1	0.59
+402	Benthic	305	272	DEN-074	DEN-074	DKI	EQR	1	0	0.68	1	0.64
+403	Benthic	306	272	DEN-075	DEN-075	DKI	EQR	1	0	0.68	1	0.64
+404	Benthic	307	272	DEN-076	DEN-076	DKI	EQR	1	0	0.68	1	0.61
+405	Benthic	308	272	DEN-077	DEN-077	DKI	EQR	1	0	0.68	1	0.75
+406	Benthic	310	272	DEN-079	DEN-079	DKI	EQR	1	0	0.68	1	0.60
+407	Benthic	311	272	DEN-080	DEN-080	DKI	EQR	1	0	0.68	1	0.73
+408	Benthic	312	272	DEN-081	DEN-081	DKI	EQR	1	0	0.68	1	0.18
+409	Benthic	315	272	DEN-084	DEN-084	DKI	EQR	1	0	0.68	1	0.67
+410	Benthic	316	272	DEN-085	DEN-085	DKI	EQR	1	0	0.68	1	0.67
+411	Benthic	317	272	DEN-086	DEN-086	DKI	EQR	1	0	0.68	1	0.49
+412	Benthic	318	272	DEN-087	DEN-087	DKI	EQR	1	0	0.68	1	0.58
+413	Benthic	320	272	DEN-089	DEN-089	DKI	EQR	1	0	0.68	1	0.47
+414	Benthic	321	272	DEN-090	DEN-090	DKI	EQR	1	0	0.68	1	0.57
+415	Benthic	323	272	DEN-092	DEN-092	DKI	EQR	1	0	0.68	1	0.82
+416	Benthic	324	272	DEN-093	DEN-093	DKI	EQR	1	0	0.68	1	0.81
+417	Benthic	325	272	DEN-094	DEN-094	DKI	EQR	1	0	0.68	1	0.79
+418	Benthic	326	272	DEN-095	DEN-095	DKI	EQR	1	0	0.68	1	0.63
+419	Benthic	327	272	DEN-096	DEN-096	DKI	EQR	1	0	0.72	1	0.56
+420	Benthic	328	272	DEN-097	DEN-097	DKI	EQR	1	0	0.68	1	0.76
+421	Benthic	332	272	DEN-101	DEN-101	DKI	EQR	1	0	0.68	1	0.80
+422	Benthic	334	272	DEN-103	DEN-103	DKI	EQR	1	0	0.72	1	0.54
+423	Benthic	335	272	DEN-104	DEN-104	DKI	EQR	1	0	0.72	1	0.63
+424	Benthic	337	272	DEN-106	DEN-106	DKI	EQR	1	0	0.68	1	0.63
+425	Benthic	339	272	DEN-108	DEN-108	DKI	EQR	1	0	0.68	1	0.62
+426	Macrophytes	232	204	DEN-001	DEN-001	EELGRASS	m	1	0	4.1	5.6	4.2
+427	Macrophytes	233	204	DEN-002	DEN-002	EELGRASS	m	1	0	3	4	2.4
+428	Macrophytes	234	204	DEN-003	DEN-003	EELGRASS	m	1	0	9	12.2	5.8
+429	Macrophytes	236	204	DEN-005	DEN-005	EELGRASS	m	1	0	4.144	5.6	1.8
+430	Macrophytes	238	204	DEN-007	DEN-007	EELGRASS	m	1	0	4.144	5.6	1.1
+431	Macrophytes	239	204	DEN-008	DEN-008	EELGRASS	m	1	0	5.5	7.4	5.6
+432	Macrophytes	240	204	DEN-009	DEN-009	EELGRASS	m	1	0	4.1	5.6	3.7
+433	Macrophytes	241	204	DEN-010	DEN-010	EELGRASS	m	1	0	4.1	5.6	3.0
+434	Macrophytes	242	204	DEN-011	DEN-011	EELGRASS	m	1	0	9	12.2	5.9
+435	Macrophytes	243	204	DEN-012	DEN-012	EELGRASS	m	1	0	7.3	9.8	3.6
+436	Macrophytes	244	204	DEN-013	DEN-013	EELGRASS	m	1	0	6.8	9.2	6.7
+437	Macrophytes	245	204	DEN-014	DEN-014	EELGRASS	m	1	0	4.292	5.8	1.3
+438	Macrophytes	246	204	DEN-015	DEN-015	EELGRASS	m	1	0	4.144	5.6	0.9
+439	Macrophytes	247	204	DEN-016	DEN-016	EELGRASS	m	1	0	4.1	5.6	4.9
+440	Macrophytes	248	204	DEN-017	DEN-017	EELGRASS	m	1	0	4	5.4	3.7
+441	Macrophytes	250	204	DEN-019	DEN-019	EELGRASS	m	1	0	7	9.4	5.9
+442	Macrophytes	252	204	DEN-021	DEN-021	EELGRASS	m	1	0	8.1	10.9	5.7
+443	Macrophytes	253	204	DEN-022	DEN-022	EELGRASS	m	1	0	4.1	5.6	3.1
+444	Macrophytes	254	204	DEN-023	DEN-023	EELGRASS	m	1	0	4.1	5.6	4.1
+445	Macrophytes	259	204	DEN-028	DEN-028	EELGRASS	m	1	0	5.6	7.5	4.4
+446	Macrophytes	260	204	DEN-029	DEN-029	EELGRASS	m	1	0	5.1	6.9	3.5
+447	Macrophytes	261	204	DEN-030	DEN-030	EELGRASS	m	1	0	6.2	8.4	6.1
+448	Macrophytes	263	204	DEN-032	DEN-032	EELGRASS	m	1	0	4.1	5.6	1.4
+449	Macrophytes	268	204	DEN-037	DEN-037	EELGRASS	m	1	0	6.1	8.3	6.1
+450	Macrophytes	273	204	DEN-042	DEN-042	EELGRASS	m	1	0	5.6	7.5	2.3
+451	Macrophytes	278	204	DEN-047	DEN-047	EELGRASS	m	1	0	3.6	4.8	2.2
+452	Macrophytes	279	204	DEN-048	DEN-048	EELGRASS	m	1	0	6.2	8.4	3.8
+453	Macrophytes	280	204	DEN-049	DEN-049	EELGRASS	m	1	0	5.6	7.5	5.4
+454	Macrophytes	281	204	DEN-050	DEN-050	EELGRASS	m	1	0	5	6.8	3.7
+455	Macrophytes	282	204	DEN-051	DEN-051	EELGRASS	m	1	0	8.1	10.9	6.0
+456	Macrophytes	283	204	DEN-052	DEN-052	EELGRASS	m	1	0	4.2	5.6	2.9
+457	Macrophytes	284	204	DEN-053	DEN-053	EELGRASS	m	1	0	4.2	5.6	2.2
+458	Macrophytes	285	204	DEN-054	DEN-054	EELGRASS	m	1	0	8.1	10.9	6.5
+459	Macrophytes	286	204	DEN-055	DEN-055	EELGRASS	m	1	0	9	12.2	5.1
+460	Macrophytes	287	204	DEN-056	DEN-056	EELGRASS	m	1	0	8.9	12	2.5
+461	Macrophytes	288	204	DEN-057	DEN-057	EELGRASS	m	1	0	8.9	12	4.0
+462	Macrophytes	290	204	DEN-059	DEN-059	EELGRASS	m	1	0	4.4	5.9	2.7
+463	Macrophytes	291	204	DEN-060	DEN-060	EELGRASS	m	1	0	4.1	5.6	1.3
+464	Macrophytes	293	204	DEN-062	DEN-062	EELGRASS	m	1	0	4.144	5.6	0.5
+465	Macrophytes	295	204	DEN-064	DEN-064	EELGRASS	m	1	0	6.8	9.2	3.7
+466	Macrophytes	296	204	DEN-065	DEN-065	EELGRASS	m	1	0	7.5	10.1	2.0
+467	Macrophytes	297	204	DEN-066	DEN-066	EELGRASS	m	1	0	9.6	13	5.6
+468	Macrophytes	298	204	DEN-067	DEN-067	EELGRASS	m	1	0	8.4	11.4	2.4
+469	Macrophytes	299	204	DEN-068	DEN-068	EELGRASS	m	1	0	6.1	8.3	2.3
+470	Macrophytes	300	204	DEN-069	DEN-069	EELGRASS	m	1	0	4.1	5.6	1.6
+471	Macrophytes	301	204	DEN-070	DEN-070	EELGRASS	m	1	0	7.3	9.8	2.1
+472	Macrophytes	302	204	DEN-071	DEN-071	EELGRASS	m	1	0	8.5	11.5	3.0
+473	Macrophytes	303	204	DEN-072	DEN-072	EELGRASS	m	1	0	6.4	8.6	2.1
+474	Macrophytes	306	204	DEN-075	DEN-075	EELGRASS	m	1	0	4.292	5.8	0.5
+475	Macrophytes	307	204	DEN-076	DEN-076	EELGRASS	m	1	0	9	12.2	4.7
+476	Macrophytes	310	204	DEN-079	DEN-079	EELGRASS	m	1	0	7.3	9.8	6.0
+477	Macrophytes	312	204	DEN-081	DEN-081	EELGRASS	m	1	0	7	9.4	3.3
+478	Macrophytes	313	204	DEN-082	DEN-082	EELGRASS	m	1	0	7	9.4	2.7
+479	Macrophytes	315	204	DEN-084	DEN-084	EELGRASS	m	1	0	7	9.5	4.8
+480	Macrophytes	316	204	DEN-085	DEN-085	EELGRASS	m	1	0	9	12.2	5.6
+481	Macrophytes	317	204	DEN-086	DEN-086	EELGRASS	m	1	0	4.1	5.5	2.7
+482	Macrophytes	318	204	DEN-087	DEN-087	EELGRASS	m	1	0	4.1	5.5	1.8
+483	Macrophytes	319	204	DEN-088	DEN-088	EELGRASS	m	1	0	4.1	5.5	0.2
+484	Macrophytes	320	204	DEN-089	DEN-089	EELGRASS	m	1	0	3.1	4.2	0.8
+485	Macrophytes	321	204	DEN-090	DEN-090	EELGRASS	m	1	0	3.6	4.8	0.8
+486	Macrophytes	322	204	DEN-091	DEN-091	EELGRASS	m	1	0	5.1	6.9	3.6
+487	Macrophytes	324	204	DEN-093	DEN-093	EELGRASS	m	1	0	8.1	10.9	6.6
+488	Macrophytes	327	204	DEN-096	DEN-096	EELGRASS	m	1	0	8.1	10.9	6.7
+489	Macrophytes	328	204	DEN-097	DEN-097	EELGRASS	m	1	0	4.4	5.9	4.0
+490	Macrophytes	330	204	DEN-099	DEN-099	EELGRASS	m	1	0	4.1	5.6	4.6
+491	Macrophytes	331	204	DEN-100	DEN-100	EELGRASS	m	1	0	6.1	8.3	5.9
+492	Macrophytes	332	204	DEN-101	DEN-101	EELGRASS	m	1	0	5.6	7.5	4.8
+493	Macrophytes	334	204	DEN-103	DEN-103	EELGRASS	m	1	0	8.1	10.9	3.2
+494	Macrophytes	335	204	DEN-104	DEN-104	EELGRASS	m	1	0	8.1	10.9	3.4
+495	Macrophytes	336	204	DEN-105	DEN-105	EELGRASS	m	1	0	9	12.2	4.0
+496	Macrophytes	337	204	DEN-106	DEN-106	EELGRASS	m	1	0	9	12.2	2.4
+497	Macrophytes	338	204	DEN-107	DEN-107	EELGRASS	m	1	0	9	12.2	3.7
+498	Macrophytes	339	204	DEN-108	DEN-108	EELGRASS	m	1	0	9	12.2	4.6
+499	Benthic	169	272	POL-001	POL-001	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.17
+500	Benthic	170	272	POL-002	POL-002	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.07
+501	Benthic	171	272	POL-003	POL-003	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	1.1
+502	Benthic	172	272	POL-004	POL-004	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.46
+503	Benthic	173	272	POL-005	POL-005	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.8
+504	Benthic	174	272	POL-006	POL-006	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.93
+505	Benthic	175	272	POL-007	POL-007	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.34
+506	Benthic	176	272	POL-008	POL-008	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.56
+507	Benthic	177	272	POL-009	POL-009	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.38
+508	Benthic	178	272	POL-010	POL-010	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	3.56
+509	Benthic	179	272	POL-011	POL-011	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.35
+510	Benthic	180	272	POL-012	POL-012	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.12
+511	Benthic	181	272	POL-013	POL-013	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	1.74
+512	Benthic	182	272	POL-014	POL-014	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.65
+513	Benthic	183	272	POL-015	POL-015	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.77
+514	Benthic	184	272	POL-016	POL-016	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	3.29
+515	Benthic	185	272	POL-017	POL-017	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	3.25
+516	Benthic	186	272	POL-018	POL-018	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	2.27
+517	Benthic	187	272	POL-019	POL-019	Zoobenthos Quality element (B)	index	1	0	3.18	4.26	1.83
+518	Macrophytes	172	204	POL-004	POL-004	Macrovegetation Quality element (SM1)		1	0	0.8	1	0.49
+519	Macrophytes	173	204	POL-005	POL-005	Macrovegetation Quality element (SM1)		1	0	0.8	1	0.72
+520	Macrophytes	183	204	POL-015	POL-015	Macrovegetation Quality element (SM1)		1	0	0.8	1	0.83
+522	Zooplankton	30	130	Northern Baltic Proper	Northern Baltic Proper	Zooplankton mean size		1	2	5.1	13	4.2
+523	Zooplankton	30	131	Northern Baltic Proper	Northern Baltic Proper	Zooplankton biomass		1	92	220	587	179
+524	Zooplankton	31	130	Gulf of Finland	Gulf of Finland	Zooplankton mean size		1	2	8.6	13	6.5
+525	Zooplankton	31	131	Gulf of Finland	Gulf of Finland	Zooplankton biomass		1	92	125	587	197
+526	Zooplankton	32	130	Åland Sea	Åland Sea	Zooplankton mean size		1	2	10.3	13	8.1
+527	Zooplankton	32	131	Åland Sea	Åland Sea	Zooplankton biomass		1	40	55	587	47
+528	Zooplankton	33	130	Bothnian Sea	Bothnian Sea	Zooplankton mean size		1	2	8.4	80.7	23.9
+529	Zooplankton	33	131	Bothnian Sea	Bothnian Sea	Zooplankton biomass		1	20	84	554	164
+530	Zooplankton	35	130	Bothnian Bay	Bothnian Bay	Zooplankton mean size		1	15	23.7	80.7	30.7
+531	Zooplankton	35	131	Bothnian Bay	Bothnian Bay	Zooplankton biomass		1	103	161	554	166
+532	Phytoplankton	19	176	Kattegat	Kattegat	Chlorophyll a		1	2.50	1.5	0.99	0.99
+533	Phytoplankton	20	176	Kattegat	Great Belt	Chlorophyll a		1	3.50	1.7	0.55	2.14
+534	Phytoplankton	22	176	Kattegat	Kiel Bay	Chlorophyll a		1	2.79	2	1.03	2.31
+535	Phytoplankton	23	176	Kattegat	Bay of Mecklenburg	Chlorophyll a		1	3.44	1.8	1.20	2.29
+536	Phytoplankton	24	176	Kattegat	Arkona Basin	Chlorophyll a		1	2.80	1.8	1.20	2.61
+537	Phytoplankton	25	176	Kattegat	Bornholm Basin	Chlorophyll a		1	7.00	1.8	1.20	4.98
+538	Phytoplankton	26	176	Gdansk Basin Polish Coastal waters	Gulf of Gdansk	Chlorophyll a		1	4.30	2.2	1.20	3.26
+539	Phytoplankton	27	176	Eastern Gotland Basin	Eastern Gotland Basin	Chlorophyll a		1	3.80	1.9	1.20	2.74
+540	Phytoplankton	28	176	Western Gotland Basin	Western Gotland Basin	Chlorophyll a		1	3.80	1.2	1.00	2.35
+541	Phytoplankton	29	176	Gulf of Riga	Gulf of Riga	Chlorophyll a		1	7.00	2.7	1.80	4.17
+542	Phytoplankton	30	176	Northern Baltic Proper	Northern Baltic Proper	Chlorophyll a		1	4.49	1.65	1.10	3.49
+543	Phytoplankton	31	176	Gulf of Finland	Gulf of Finland	Chlorophyll a		1	6.00	2	1.20	4.65
+544	Phytoplankton	32	176	Åland Sea	Åland Sea	Chlorophyll a		1	3.50	1.5	1.05	2.59
+545	Phytoplankton	33	176	Bothnian Sea	Bothnian Sea	Chlorophyll a		1	3.50	1.5	1.00	2.34
+546	Phytoplankton	34	176	The Quark	The Quark	Chlorophyll a		1	3.50	2	1.15	2.66
+547	Phytoplankton	35	176	Bothnian Bay	Bothnian Bay	Chlorophyll a		1	3.50	2	1.30	2.29
+548	Phytoplankton	114	189	GER-001	GER-001	Chlorophyll a		1	28.2	1.95	1.3	3.10
+549	Phytoplankton	115	189	GER-002	GER-002	Chlorophyll a		1	28.2	1.95	1.3	3.10
+550	Phytoplankton	116	189	GER-003	GER-003	Chlorophyll a		1	28.2	1.95	1.3	2.90
+551	Phytoplankton	117	189	GER-004	GER-004	Chlorophyll a		1	28.6	1.9	1.3	1.79
+552	Phytoplankton	118	189	GER-005	GER-005	Chlorophyll a		1	38.8	2.4	1.6	8.30
+553	Phytoplankton	119	189	GER-006	GER-006	Chlorophyll a		1	28.6	1.9	1.3	1.91
+554	Phytoplankton	120	189	GER-007	GER-007	Chlorophyll a		1	208.5	12.7	8.5	121.40
+555	Phytoplankton	121	189	GER-008	GER-008	Chlorophyll a		1	208.5	12.7	8.5	92.40
+556	Phytoplankton	122	189	GER-009	GER-009	Chlorophyll a		1	40.25	2.4	1.6	40.25
+557	Phytoplankton	123	189	GER-010	GER-010	Chlorophyll a		1	33.2	2.3	1.5	2.00
+558	Phytoplankton	124	189	GER-011	GER-011	Chlorophyll a		1	38.8	2.4	1.6	11.47
+559	Phytoplankton	125	189	GER-012	GER-012	Chlorophyll a		1	38.8	2.4	1.6	14.95
+560	Phytoplankton	126	189	GER-013	GER-013	Chlorophyll a		1	38.8	2.4	1.6	15.65
+561	Phytoplankton	127	189	GER-014	GER-014	Chlorophyll a		1	81.90	2.4	1.6	81.90
+562	Phytoplankton	128	189	GER-015	GER-015	Chlorophyll a		1	33.2	2.3	1.5	2.85
+563	Phytoplankton	129	189	GER-016	GER-016	Chlorophyll a		1	208.5	12.7	8.5	64.37
+564	Phytoplankton	130	189	GER-017	GER-017	Chlorophyll a		1	208.5	12.7	8.5	84.35
+565	Phytoplankton	131	189	GER-018	GER-018	Chlorophyll a		1	33.2	2.3	1.5	5.40
+566	Phytoplankton	132	189	GER-019	GER-019	Chlorophyll a		1	33.2	2.3	1.5	10.43
+567	Phytoplankton	133	189	GER-020	GER-020	Chlorophyll a		1	208.5	12.7	8.5	71.65
+568	Phytoplankton	134	189	GER-021	GER-021	Chlorophyll a		1	28.2	1.95	1.3	5.93
+569	Phytoplankton	135	189	GER-022	GER-022	Chlorophyll a		1	28.6	1.9	1.3	2.43
+570	Phytoplankton	136	189	GER-023	GER-023	Chlorophyll a		1	28.6	1.9	1.3	2.43
+571	Phytoplankton	137	189	GER-024	GER-024	Chlorophyll a		1	28.6	1.9	1.3	2.09
+572	Phytoplankton	138	189	GER-025	GER-025	Chlorophyll a		1	28.2	1.95	1.3	18.5
+573	Phytoplankton	139	189	GER-026	GER-026	Chlorophyll a		1	54.7	2.4	1.6	54.7
+574	Phytoplankton	140	189	GER-027	GER-027	Chlorophyll a		1	54.7	2.4	1.6	54.7
+575	Phytoplankton	141	189	GER-028	GER-028	Chlorophyll a		1	28.6	1.9	1.3	2.1
+576	Phytoplankton	142	189	GER-029	GER-029	Chlorophyll a		1	28.6	1.9	1.3	2.37
+577	Phytoplankton	143	189	GER-030	GER-030	Chlorophyll a		1	28.6	1.9	1.3	1.8
+578	Phytoplankton	144	189	GER-031	GER-031	Chlorophyll a		1	28.6	1.9	1.3	2.25
+579	Phytoplankton	145	189	GER-032	GER-032	Chlorophyll a		1	28.2	1.95	1.3	7.75
+580	Phytoplankton	146	189	GER-033	GER-033	Chlorophyll a		1	28.6	1.9	1.3	1.8
+581	Phytoplankton	147	189	GER-034	GER-034	Chlorophyll a		1	28.6	1.9	1.3	1.8
+582	Phytoplankton	148	189	GER-035	GER-035	Chlorophyll a		1	28.6	1.9	1.3	1.8
+583	Phytoplankton	149	189	GER-036	GER-036	Chlorophyll a		1	28.6	1.9	1.3	1.22
+584	Phytoplankton	150	189	GER-037	GER-037	Chlorophyll a		1	28.2	1.95	1.3	1.1
+585	Phytoplankton	151	189	GER-038	GER-038	Chlorophyll a		1	28.6	1.9	1.3	1.82
+586	Phytoplankton	152	189	GER-039	GER-039	Chlorophyll a		1	28.6	1.9	1.3	1.8
+587	Phytoplankton	153	189	GER-040	GER-040	Chlorophyll a		1	28.6	1.9	1.3	2.1
+588	Phytoplankton	154	189	GER-041	GER-041	Chlorophyll a		1	28.6	1.9	1.3	2.16
+589	Phytoplankton	155	189	GER-042	GER-042	Chlorophyll a		1	28.2	1.95	1.3	9.86
+590	Phytoplankton	156	189	GER-043	GER-043	Chlorophyll a		1	38.8	2.4	1.6	17.24
+591	Phytoplankton	157	189	GER-044	GER-044	Chlorophyll a		1	46.76	2.4	1.6	25.48
+592	Phytoplankton	231	189	GER-111	GER-111	Chlorophyll a		1	38.8	2.4	1.6	31.53
+593	Phytoplankton	215	189	EST-001	EST-001	Chlorophyll a		1	15.2	3.7	2.5	4.3
+594	Phytoplankton	217	189	EST-003	EST-003	Chlorophyll a		1	10.9	2.7	1.8	2.7
+595	Phytoplankton	218	189	EST-004	EST-004	Chlorophyll a		1	10.9	2.7	1.8	3.2
+596	Phytoplankton	219	189	EST-005	EST-005	Chlorophyll a		1	10.9	2.7	1.8	4.08
+597	Phytoplankton	220	189	EST-006	EST-006	Chlorophyll a		1	10.9	2.7	1.8	3.4
+598	Phytoplankton	221	189	EST-007	EST-007	Chlorophyll a		1	6.7	1.6	1.1	2.7
+599	Phytoplankton	222	189	EST-008	EST-008	Chlorophyll a		1	9.4	2.4	1.6	6.36
+600	Phytoplankton	224	189	EST-010	EST-010	Chlorophyll a		1	6.7	1.6	1.1	4.2
+601	Phytoplankton	225	189	EST-011	EST-011	Chlorophyll a		1	6.7	1.6	1.1	2.5
+602	Phytoplankton	226	189	EST-012	EST-012	Chlorophyll a		1	12.4	3	2	4.1
+603	Phytoplankton	227	189	EST-013	EST-013	Chlorophyll a		1	18.1	4.5	3	6.8
+604	Phytoplankton	100	189	FIN-001	FIN-001	Chlorophyll a		1	250	3	2.1	7.75
+605	Phytoplankton	101	189	FIN-002	FIN-002	Chlorophyll a		1	150	2.3	1.5	4.4
+606	Phytoplankton	102	189	FIN-003	FIN-003	Chlorophyll a		1	140	3.5	2.2	10.5
+607	Phytoplankton	103	189	FIN-004	FIN-004	Chlorophyll a		1	50	2.5	1.6	6.2
+608	Phytoplankton	105	189	FIN-006	FIN-006	Chlorophyll a		1	60	3.3	2	6.8
+609	Phytoplankton	106	189	FIN-007	FIN-007	Chlorophyll a		1	20	2.2	1.3	2.3
+610	Phytoplankton	107	189	FIN-008	FIN-008	Chlorophyll a		1	50	2.7	1.6	4.4
+611	Phytoplankton	108	189	FIN-009	FIN-009	Chlorophyll a		1	25	2.1	1.3	2.6
+612	Phytoplankton	109	189	FIN-010	FIN-010	Chlorophyll a		1	50	3.3	2	4.5
+613	Phytoplankton	110	189	FIN-011	FIN-011	Chlorophyll a		1	30	2.2	1.3	2.6
+614	Phytoplankton	158	189	LAT-001	LAT-001	Chlorophyll a		1	8.4	1.8	1.2	3.849999905
+615	Phytoplankton	159	189	LAT-002	LAT-002	Chlorophyll a		1	8.4	1.8	1.2	3.849999905
+616	Phytoplankton	160	189	LAT-003	LAT-003	Chlorophyll a		1	10.3	2.7	1.8	5.53000021
+617	Phytoplankton	161	189	LAT-004	LAT-004	Chlorophyll a		1	10.3	2.7	1.8	5.53000021
+618	Phytoplankton	162	189	LAT-005	LAT-005	Chlorophyll a		1	11.1	3.0	2.0	6.03000021
+619	Phytoplankton	171	189	POL-003	POL-003	Chlorophyll a		1	75.86	42.2	9.06	56.90999985
+620	Phytoplankton	172	189	POL-004	POL-004	Chlorophyll a		1	6.28000021	3.5	0	6.28000021
+621	Phytoplankton	173	189	POL-005	POL-005	Chlorophyll a		1	9.22	3.76	0.12	3.5
+622	Phytoplankton	174	189	POL-006	POL-006	Chlorophyll a		1	9.22	3.76	0.12	3.809999943
+623	Phytoplankton	175	189	POL-007	POL-007	Chlorophyll a		1	10.85000038	3.8	1.2	10.85000038
+624	Phytoplankton	176	189	POL-008	POL-008	Chlorophyll a		1	21.75	5.5	0	9.460000038
+625	Phytoplankton	177	189	POL-009	POL-009	Chlorophyll a		1	35	7.5	2.5	12.21000004
+626	Phytoplankton	178	189	POL-010	POL-010	Chlorophyll a		1	4.760000229	1.9	1.1	4.760000229
+627	Phytoplankton	179	189	POL-011	POL-011	Chlorophyll a		1	8.3	3.15	1.05	7.710000038
+628	Phytoplankton	181	189	POL-013	POL-013	Chlorophyll a		1	3.9	1.9	1.1	3.74000001
+629	Phytoplankton	182	189	POL-014	POL-014	Chlorophyll a		1	4.429999828	1.9	1.1	4.429999828
+630	Phytoplankton	183	189	POL-015	POL-015	Chlorophyll a		1	5.760000229	1.9	1.1	5.760000229
+631	Phytoplankton	184	189	POL-016	POL-016	Chlorophyll a		1	4.889999866	1.9	1.1	4.889999866
+632	Phytoplankton	185	189	POL-017	POL-017	Chlorophyll a		1	5.349999905	1.9	1.1	5.349999905
+633	Phytoplankton	186	189	POL-018	POL-018	Chlorophyll a		1	8.3	3.15	1.05	7
+634	Phytoplankton	187	189	POL-019	POL-019	Chlorophyll a		1	5.900000095	1.9	1.1	5.900000095
+635	Phytoplankton	170	274	POL-002	POL-002	Chl a annual		1	50	20	0	34.18999863
+636	Phytoplankton	171	274	POL-003	POL-003	Chl a annual		1	87.4	31.3	15.1	49.29000092
+637	Phytoplankton	172	274	POL-004	POL-004	Chl a annual		1	5.8	2	0.4	5.039999962
+638	Phytoplankton	191	189	SWE-001	SWE-001	Chlorophyll a		1	0	0.57	1.6	0.749230769
+639	Phytoplankton	192	189	SWE-003	SWE-003	Chlorophyll a		1	0	0.67	1	0.882
+640	Phytoplankton	193	189	SWE-004	SWE-004	Chlorophyll a		1	0	0.67	1	0.75
+641	Phytoplankton	194	189	SWE-005	SWE-005	Chlorophyll a		1	0	0.59	0.9	0.63
+642	Phytoplankton	195	189	SWE-006	SWE-006	Chlorophyll a		1	0	0.67	1.2	0.6085
+643	Phytoplankton	196	189	SWE-007	SWE-007	Chlorophyll a		1	0	0.67	1.2	0.695833333
+644	Phytoplankton	197	189	SWE-008	SWE-008	Chlorophyll a		1	0	0.67	1.2	0.73375
+645	Phytoplankton	198	189	SWE-009	SWE-009	Chlorophyll a		1	0	0.67	1.2	0.439761905
+646	Phytoplankton	199	189	SWE-010	SWE-010	Chlorophyll a		1	0	0.67	1.2	0.51
+647	Phytoplankton	200	189	SWE-011	SWE-011	Chlorophyll a		1	0	0.67	1.2	0.44811828
+648	Phytoplankton	201	189	SWE-012	SWE-012	Chlorophyll a		1	0	0.67	1.2	0.562083333
+649	Phytoplankton	202	189	SWE-013	SWE-013	Chlorophyll a		1	0	0.67	1.2	0.25
+650	Phytoplankton	203	189	SWE-014	SWE-014	Chlorophyll a		1	0	0.67	1.2	0.529
+651	Phytoplankton	204	189	SWE-015	SWE-015	Chlorophyll a		1	0	0.67	1.2	0.51
+652	Phytoplankton	205	189	SWE-016	SWE-016	Chlorophyll a		1	0	0.61	1.4	0.47825
+653	Phytoplankton	206	189	SWE-017	SWE-017	Chlorophyll a		1	0	0.6	1.2	0.540833333
+654	Phytoplankton	207	189	SWE-018	SWE-018	Chlorophyll a		1	0	0.61	1.4	0.592093023
+655	Phytoplankton	208	189	SWE-019	SWE-019	Chlorophyll a		1	0	0.6	1.2	0.620769231
+656	Phytoplankton	209	189	SWE-020	SWE-020	Chlorophyll a		1	0	0.57	1.3	0.467
+657	Phytoplankton	210	189	SWE-021	SWE-021	Chlorophyll a		1	0	0.55	1.1	0.425
+658	Phytoplankton	211	189	SWE-022	SWE-022	Chlorophyll a		1	0	0.52	1.2	0.531325301
+659	Phytoplankton	212	189	SWE-023	SWE-023	Chlorophyll a		1	0	0.55	1.1	0.511
+660	Phytoplankton	213	189	SWE-024	SWE-024	Chlorophyll a		1	0	0.67	1.2	0.412368421
+661	Phytoplankton	214	189	SWE-025	SWE-025	Chlorophyll a		1	0	0.67	1.8	0.36
+662	Phytoplankton	163	189	LIT-001	LIT-001	Chlorophyll a		1	0	0.55	1	0.26
+663	Phytoplankton	164	189	LIT-002	LIT-002	Chlorophyll a		1	0	0.61	1	0.5
+664	Phytoplankton	165	189	LIT-003	LIT-003	Chlorophyll a		1	0	0.61	1	0.31
+665	Phytoplankton	166	189	LIT-004	LIT-004	Chlorophyll a		1	0	0.68	1	0.22
+666	Phytoplankton	167	189	LIT-005	LIT-005	Chlorophyll a		1	0	0.57	1	0.14
+667	Phytoplankton	168	189	LIT-006	LIT-006	Chlorophyll a		1	0	0.42	1	0.23
+668	Phytoplankton	111	189	FIN-012	FIN-012	Chlorophyll a		1	20.9	3	2	12.6
+669	Phytoplankton	112	189	FIN-013	FIN-013	Chlorophyll a		1	17.1	2.4	1.6	3.0
+670	Phytoplankton	23	273	Bay of Mecklenburg	Bay of Mecklenburg	Cyanobacteria Bloom Index		1	0	0.92	1.00	0.72
+671	Phytoplankton	24	273	Arkona Basin	Arkona Basin	Cyanobacteria Bloom Index		1	0	0.9	1.00	0.85
+672	Phytoplankton	25	273	Bornholm Basin	Bornholm Basin	Cyanobacteria Bloom Index		1	0	0.87	1.00	0.80
+673	Phytoplankton	26	273	Gdansk Basin Polish Coastal waters	Gulf of Gdansk	Cyanobacteria Bloom Index		1	0	0.98	1.00	0.83
+674	Phytoplankton	27	273	Eastern Gotland Basin	Eastern Gotland Basin	Cyanobacteria Bloom Index		1	0	0.84	1.00	0.76
+675	Phytoplankton	28	273	Western Gotland Basin	Western Gotland Basin	Cyanobacteria Bloom Index		1	0	0.87	1.00	0.78
+676	Phytoplankton	29	273	Gulf of Riga	Gulf of Riga	Cyanobacteria Bloom Index		1	0	0.9	1.00	0.53
+677	Phytoplankton	30	273	Northern Baltic Proper	Northern Baltic Proper	Cyanobacteria Bloom Index		1	0	0.77	1.00	0.45
+678	Phytoplankton	31	273	Gulf of Finland	Gulf of Finland	Cyanobacteria Bloom Index		1	0	0.9	1.00	0.69
+679	Phytoplankton	33	273	Bothnian Sea	Bothnian Sea	Cyanobacteria Bloom Index		1	0	0.58	1.00	0.37
+680	Phytoplankton	215	187	EST-001	EST-001	Phytoplankton biovolume		1	2.78	0.67	0.45	0.53
+681	Phytoplankton	217	187	EST-003	EST-003	Phytoplankton biovolume		1	1.68	0.42	0.28	0.36
+682	Phytoplankton	218	187	EST-004	EST-004	Phytoplankton biovolume		1	1.68	0.42	0.28	0.35
+683	Phytoplankton	219	187	EST-005	EST-005	Phytoplankton biovolume		1	1.68	0.42	0.28	0.67
+684	Phytoplankton	220	187	EST-006	EST-006	Phytoplankton biovolume		1	1.68	0.42	0.28	0.59
+685	Phytoplankton	221	187	EST-007	EST-007	Phytoplankton biovolume		1	1.76	0.42	0.29	0.32
+686	Phytoplankton	222	187	EST-008	EST-008	Phytoplankton biovolume		1	1.32	0.15	0.1	1.32
+687	Phytoplankton	224	187	EST-010	EST-010	Phytoplankton biovolume		1	1.76	0.42	0.29	0.60
+688	Phytoplankton	225	187	EST-011	EST-011	Phytoplankton biovolume		1	1.76	0.42	0.29	0.31
+689	Phytoplankton	226	187	EST-012	EST-012	Phytoplankton biovolume		1	1.33	0.33	0.22	0.54
+690	Phytoplankton	101	187	FIN-002	FIN-002	Phytoplankton biovolume		1	10	0.38	0.24	0.84
+691	Phytoplankton	103	187	FIN-004	FIN-004	Phytoplankton biovolume		1	60	0.46	0.3	1.11
+692	Phytoplankton	106	187	FIN-007	FIN-007	Phytoplankton biovolume		1	5	0.27	0.17	0.43
+693	Phytoplankton	108	187	FIN-009	FIN-009	Phytoplankton biovolume		1	5	0.34	0.21	0.28
+694	Phytoplankton	110	187	FIN-011	FIN-011	Phytoplankton biovolume		1	8	0.33	0.18	0.42
+695	Phytoplankton	158	187	LAT-001	LAT-001	Phytoplankton biovolume		1	590	320	211	401
+696	Phytoplankton	159	187	LAT-002	LAT-002	Phytoplankton biovolume		1	590	320	211	124
+697	Phytoplankton	160	187	LAT-003	LAT-003	Phytoplankton biovolume		1	790	380	250	611
+698	Phytoplankton	161	187	LAT-004	LAT-004	Phytoplankton biovolume		1	790	380	250	374
+699	Phytoplankton	162	187	LAT-005	LAT-005	Phytoplankton biovolume		1	790	430	284	648
+700	Phytoplankton	192	187	SWE-003	SWE-003	Phytoplankton biovolume		1	0	0.45	1	0.835
+701	Phytoplankton	193	187	SWE-004	SWE-004	Phytoplankton biovolume		1	0	0.33	1	0.79
+702	Phytoplankton	200	187	SWE-011	SWE-011	Phytoplankton biovolume		1	0	0.56	1	0.48952381
+703	Phytoplankton	201	187	SWE-012	SWE-012	Phytoplankton biovolume		1	0	0.56	1	0.407741935
+704	Phytoplankton	202	187	SWE-013	SWE-013	Phytoplankton biovolume		1	0	0.56	1	0.4
+705	Phytoplankton	203	187	SWE-014	SWE-014	Phytoplankton biovolume		1	0	0.56	1	0.4
+706	Phytoplankton	204	187	SWE-015	SWE-015	Phytoplankton biovolume		1	0	0.56	1	0.4
+707	Phytoplankton	205	187	SWE-016	SWE-016	Phytoplankton biovolume		1	0	0.45	1	0.645
+708	Phytoplankton	206	187	SWE-017	SWE-017	Phytoplankton biovolume		1	0	0.45	1	0.488333333
+709	Phytoplankton	207	187	SWE-018	SWE-018	Phytoplankton biovolume		1	0	0.45	1	0.442
+710	Phytoplankton	209	187	SWE-020	SWE-020	Phytoplankton biovolume		1	0	0.43	1	0.540769231
+711	Phytoplankton	211	187	SWE-022	SWE-022	Phytoplankton biovolume		1	0	0.43	1	0.664
+712	Phytoplankton	213	187	SWE-024	SWE-024	Phytoplankton biovolume		1	0	0.56	1	0.728
+713	Phytoplankton	114	187	GER-001	GER-001	Phytoplankton biovolume		1	0	0.6	1	0.15
+714	Phytoplankton	115	187	GER-002	GER-002	Phytoplankton biovolume		1	0	0.6	1	0.41
+715	Phytoplankton	116	187	GER-003	GER-003	Phytoplankton biovolume		1	0	0.6	1	0.44
+716	Phytoplankton	117	187	GER-004	GER-004	Phytoplankton biovolume		1	0	0.6	1	0.55
+717	Phytoplankton	118	187	GER-005	GER-005	Phytoplankton biovolume		1	0	0.6	1	0.27
+718	Phytoplankton	119	187	GER-006	GER-006	Phytoplankton biovolume		1	0	0.6	1	0.57
+719	Phytoplankton	120	187	GER-007	GER-007	Phytoplankton biovolume		1	0	0.6	1	0.11
+720	Phytoplankton	121	187	GER-008	GER-008	Phytoplankton biovolume		1	0	0.6	1	0.21
+721	Phytoplankton	122	187	GER-009	GER-009	Phytoplankton biovolume		1	0	0.6	1	0.09
+722	Phytoplankton	123	187	GER-010	GER-010	Phytoplankton biovolume		1	0	0.6	1	0.59
+723	Phytoplankton	124	187	GER-011	GER-011	Phytoplankton biovolume		1	0	0.6	1	0.31
+724	Phytoplankton	125	187	GER-012	GER-012	Phytoplankton biovolume		1	0	0.6	1	0.28
+725	Phytoplankton	126	187	GER-013	GER-013	Phytoplankton biovolume		1	0	0.6	1	0.29
+726	Phytoplankton	127	187	GER-014	GER-014	Phytoplankton biovolume		1	0	0.6	1	0.11
+727	Phytoplankton	128	187	GER-015	GER-015	Phytoplankton biovolume		1	0	0.6	1	0.41
+728	Phytoplankton	129	187	GER-016	GER-016	Phytoplankton biovolume		1	0	0.6	1	0.29
+729	Phytoplankton	130	187	GER-017	GER-017	Phytoplankton biovolume		1	0	0.6	1	0.29
+730	Phytoplankton	131	187	GER-018	GER-018	Phytoplankton biovolume		1	0	0.6	1	0.42
+731	Phytoplankton	132	187	GER-019	GER-019	Phytoplankton biovolume		1	0	0.6	1	0.31
+732	Phytoplankton	133	187	GER-020	GER-020	Phytoplankton biovolume		1	0	0.6	1	0.34
+733	Phytoplankton	231	187	GER-111	GER-111	Phytoplankton biovolume		1	0	0.6	1	0.13
+734	Phytoplankton	232	189	DEN-001	DEN-001	CHL-A		1	9.4	2.1	1.3	5.3
+735	Phytoplankton	233	189	DEN-002	DEN-002	CHL-A		1	16.2	3.6	2.2	4.1
+736	Phytoplankton	234	189	DEN-003	DEN-003	CHL-A		1	7.6	1.7	1.0	1.5
+737	Phytoplankton	237	189	DEN-006	DEN-006	CHL-A		1	9.4	2.1	1.3	1.0
+738	Phytoplankton	238	189	DEN-007	DEN-007	CHL-A		1	9.4	2.1	1.3	1.5
+739	Phytoplankton	239	189	DEN-008	DEN-008	CHL-A		1	9.4	2.1	1.3	2.6
+740	Phytoplankton	240	189	DEN-009	DEN-009	CHL-A		1	9.4	2.1	1.3	3.1
+741	Phytoplankton	241	189	DEN-010	DEN-010	CHL-A		1	9.4	2.1	1.3	1.4
+742	Phytoplankton	242	189	DEN-011	DEN-011	CHL-A		1	7.2	1.6	1.0	1.4
+743	Phytoplankton	243	189	DEN-012	DEN-012	CHL-A		1	9.4	2.1	1.3	1.7
+744	Phytoplankton	244	189	DEN-013	DEN-013	CHL-A		1	9.4	2.1	1.3	1.7
+745	Phytoplankton	245	189	DEN-014	DEN-014	CHL-A		1	16.2	3.6	2.2	7.2
+746	Phytoplankton	246	189	DEN-015	DEN-015	CHL-A		1	9.4	2.1	1.3	1.3
+747	Phytoplankton	247	189	DEN-016	DEN-016	CHL-A		1	9.4	2.1	1.3	1.9
+748	Phytoplankton	248	189	DEN-017	DEN-017	CHL-A		1	9.4	2.1	1.3	3.5
+749	Phytoplankton	249	189	DEN-018	DEN-018	CHL-A		1	6.7	1.5	0.9	1.9
+750	Phytoplankton	250	189	DEN-019	DEN-019	CHL-A		1	7.6	1.7	1.0	1.9
+751	Phytoplankton	251	189	DEN-020	DEN-020	CHL-A		1	6.7	1.5	0.9	1.7
+752	Phytoplankton	252	189	DEN-021	DEN-021	CHL-A		1	7.6	1.7	1.0	1.6
+753	Phytoplankton	253	189	DEN-022	DEN-022	CHL-A		1	9.4	2.1	1.3	3.7
+754	Phytoplankton	254	189	DEN-023	DEN-023	CHL-A		1	9.4	2.1	1.3	1.6
+755	Phytoplankton	255	189	DEN-024	DEN-024	CHL-A		1	13.1	2.1	1.3	13.1
+756	Phytoplankton	256	189	DEN-025	DEN-025	CHL-A		1	7.6	1.7	1.0	2.7
+757	Phytoplankton	258	189	DEN-027	DEN-027	CHL-A		1	16.2	3.6	2.2	7.7
+758	Phytoplankton	259	189	DEN-028	DEN-028	CHL-A		1	16.2	3.6	2.2	1.7
+759	Phytoplankton	261	189	DEN-030	DEN-030	CHL-A		1	16.2	3.6	2.2	4.8
+760	Phytoplankton	262	189	DEN-031	DEN-031	CHL-A		1	9.4	2.1	1.3	2.2
+761	Phytoplankton	264	189	DEN-033	DEN-033	CHL-A		1	9.4	2.1	1.3	1.2
+762	Phytoplankton	265	189	DEN-034	DEN-034	CHL-A		1	31.5	7	4.2	19.5
+763	Phytoplankton	266	189	DEN-035	DEN-035	CHL-A		1	43.8	7	4.2	43.8
+764	Phytoplankton	267	189	DEN-036	DEN-036	CHL-A		1	31.5	7	4.2	24.8
+765	Phytoplankton	268	189	DEN-037	DEN-037	CHL-A		1	9.4	2.1	1.3	1.5
+766	Phytoplankton	269	189	DEN-038	DEN-038	CHL-A		1	26.6	3.6	2.2	26.6
+767	Phytoplankton	270	189	DEN-039	DEN-039	CHL-A		1	16.2	3.6	2.2	8.1
+768	Phytoplankton	271	189	DEN-040	DEN-040	CHL-A		1	258.0	2.1	1.3	258.0
+769	Phytoplankton	272	189	DEN-041	DEN-041	CHL-A		1	171.9	7	4.2	171.9
+770	Phytoplankton	273	189	DEN-042	DEN-042	CHL-A		1	9.4	2.1	1.3	2.9
+771	Phytoplankton	274	189	DEN-043	DEN-043	CHL-A		1	9.4	2.1	1.3	9.2
+772	Phytoplankton	275	189	DEN-044	DEN-044	CHL-A		1	28.3	3.6	2.2	28.3
+773	Phytoplankton	276	189	DEN-045	DEN-045	CHL-A		1	16.2	3.6	2.2	13.4
+774	Phytoplankton	277	189	DEN-046	DEN-046	CHL-A		1	16.2	3.6	2.2	2.7
+775	Phytoplankton	278	189	DEN-047	DEN-047	CHL-A		1	9.4	2.1	1.3	4.5
+776	Phytoplankton	279	189	DEN-048	DEN-048	CHL-A		1	16.2	3.6	2.2	2.2
+777	Phytoplankton	280	189	DEN-049	DEN-049	CHL-A		1	9.4	2.1	1.3	3.8
+778	Phytoplankton	281	189	DEN-050	DEN-050	CHL-A		1	9.4	2.1	1.3	1.9
+779	Phytoplankton	282	189	DEN-051	DEN-051	CHL-A		1	6.7	1.5	0.9	2.4
+780	Phytoplankton	283	189	DEN-052	DEN-052	CHL-A		1	16.2	3.6	2.2	4.0
+781	Phytoplankton	284	189	DEN-053	DEN-053	CHL-A		1	16.2	3.6	2.2	5.8
+782	Phytoplankton	285	189	DEN-054	DEN-054	CHL-A		1	7.6	1.7	1	2.2
+783	Phytoplankton	286	189	DEN-055	DEN-055	CHL-A		1	8.5	1.9	1.1	2.0
+784	Phytoplankton	288	189	DEN-057	DEN-057	CHL-A		1	9.4	2.1	1.3	3.1
+785	Phytoplankton	291	189	DEN-060	DEN-060	CHL-A		1	9.4	2.1	1.3	3.5
+786	Phytoplankton	292	189	DEN-061	DEN-061	CHL-A		1	29.4	2.1	1.3	29.4
+787	Phytoplankton	293	189	DEN-062	DEN-062	CHL-A		1	9.4	2.1	1.3	7.9
+788	Phytoplankton	294	189	DEN-063	DEN-063	CHL-A		1	9.4	2.1	1.3	8.5
+789	Phytoplankton	295	189	DEN-064	DEN-064	CHL-A		1	9.4	2.1	1.3	4.4
+790	Phytoplankton	296	189	DEN-065	DEN-065	CHL-A		1	9.4	2.1	1.3	3.8
+791	Phytoplankton	297	189	DEN-066	DEN-066	CHL-A		1	9.4	2.1	1.3	2.0
+792	Phytoplankton	298	189	DEN-067	DEN-067	CHL-A		1	16.2	3.6	2.2	2.3
+793	Phytoplankton	299	189	DEN-068	DEN-068	CHL-A		1	16.2	3.6	2.2	3.5
+794	Phytoplankton	300	189	DEN-069	DEN-069	CHL-A		1	16.2	3.6	2.2	7.3
+795	Phytoplankton	301	189	DEN-070	DEN-070	CHL-A		1	16.2	3.6	2.2	1.7
+796	Phytoplankton	302	189	DEN-071	DEN-071	CHL-A		1	16.2	3.6	2.2	1.2
+797	Phytoplankton	303	189	DEN-072	DEN-072	CHL-A		1	16.2	3.6	2.2	5.4
+798	Phytoplankton	305	189	DEN-074	DEN-074	CHL-A		1	31.5	7	4.2	8.6
+799	Phytoplankton	306	189	DEN-075	DEN-075	CHL-A		1	16.2	3.6	2.2	4.9
+800	Phytoplankton	307	189	DEN-076	DEN-076	CHL-A		1	7.2	1.6	1	1.5
+801	Phytoplankton	308	189	DEN-077	DEN-077	CHL-A		1	7.2	1.6	1	1.8
+802	Phytoplankton	309	189	DEN-078	DEN-078	CHL-A		1	8.5	1.9	1.1	2.0
+803	Phytoplankton	310	189	DEN-079	DEN-079	CHL-A		1	9.4	2.1	1.3	2.0
+804	Phytoplankton	311	189	DEN-080	DEN-080	CHL-A		1	9.4	2.1	1.3	1.9
+805	Phytoplankton	313	189	DEN-082	DEN-082	CHL-A		1	9.4	2.1	1.3	1.2
+806	Phytoplankton	314	189	DEN-083	DEN-083	CHL-A		1	16.2	3.6	2.2	5.9
+807	Phytoplankton	315	189	DEN-084	DEN-084	CHL-A		1	9.4	2.1	1.3	1.5
+808	Phytoplankton	316	189	DEN-085	DEN-085	CHL-A		1	7.2	1.6	1	0.5
+809	Phytoplankton	317	189	DEN-086	DEN-086	CHL-A		1	16.2	3.6	2.2	8.4
+810	Phytoplankton	318	189	DEN-087	DEN-087	CHL-A		1	27.0	6	3.6	11.1
+811	Phytoplankton	319	189	DEN-088	DEN-088	CHL-A		1	44.5	9	5.4	44.5
+812	Phytoplankton	320	189	DEN-089	DEN-089	CHL-A		1	27.0	6	3.6	19.5
+813	Phytoplankton	322	189	DEN-091	DEN-091	CHL-A		1	9.4	2.1	1.3	5.5
+814	Phytoplankton	323	189	DEN-092	DEN-092	CHL-A		1	7.2	1.6	1	1.1
+815	Phytoplankton	324	189	DEN-093	DEN-093	CHL-A		1	7.6	1.7	1	1.5
+816	Phytoplankton	326	189	DEN-095	DEN-095	CHL-A		1	7.2	1.6	1	2
+817	Phytoplankton	327	189	DEN-096	DEN-096	CHL-A		1	6.7	1.5	0.9	1.3
+818	Phytoplankton	328	189	DEN-097	DEN-097	CHL-A		1	9.4	2.1	1.3	1.8
+819	Phytoplankton	329	189	DEN-098	DEN-098	CHL-A		1	6.7	1.5	0.9	2.1
+820	Phytoplankton	330	189	DEN-099	DEN-099	CHL-A		1	9.4	2.1	1.3	1.3
+821	Phytoplankton	331	189	DEN-100	DEN-100	CHL-A		1	9.4	2.1	1.3	2.7
+822	Phytoplankton	332	189	DEN-101	DEN-101	CHL-A		1	9.4	2.1	1.3	1.9
+823	Phytoplankton	333	189	DEN-102	DEN-102	CHL-A		1	6.7	1.5	0.9	2.9
+824	Phytoplankton	334	189	DEN-103	DEN-103	CHL-A		1	6.7	1.5	0.9	2.7
+825	Phytoplankton	335	189	DEN-104	DEN-104	CHL-A		1	6.7	1.5	0.9	3.2
+826	Phytoplankton	336	189	DEN-105	DEN-105	CHL-A		1	7.2	1.6	1	1.7
+827	Phytoplankton	337	189	DEN-106	DEN-106	CHL-A		1	7.2	1.6	1	1.1
+828	Phytoplankton	338	189	DEN-107	DEN-107	CHL-A		1	7.2	1.6	1	1.7
+829	Phytoplankton	339	189	DEN-108	DEN-108	CHL-A		1	8.5	1.9	1.1	1.9
+832	Birds	1	265	Baltic Sea	Baltic Sea	Abundance of waterbirds in the breeding season - wading feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	0.50
+833	Birds	1	263	Baltic Sea	Baltic Sea	Abundance of waterbirds in the breeding season - surface feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	0.50
+834	Birds	1	266	Baltic Sea	Baltic Sea	Abundance of waterbirds in the breeding season - pelagic feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	1.00
+835	Birds	1	264	Baltic Sea	Baltic Sea	Abundance of waterbirds in the breeding season - benthic feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	0.33
+836	Birds	1	262	Baltic Sea	Baltic Sea	Abundance of waterbirds in the breeding season - grazing feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	1.00
+837	Birds	1	268	Baltic Sea	Baltic Sea	Abundance of waterbirds in the wintering season - surface feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	1.00
+838	Birds	1	271	Baltic Sea	Baltic Sea	Abundance of waterbirds in the wintering season - pelagic feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	0.78
+839	Birds	1	269	Baltic Sea	Baltic Sea	Abundance of waterbirds in the wintering season - benthic feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	0.67
+840	Birds	1	267	Baltic Sea	Baltic Sea	Abundance of waterbirds in the wintering season - grazing feeders	% of populations whose size is within +-30 % of the 1991 level	1	0	0.75	1	0.60
+842	Mammals	3	21	Great Belt	Great Belt	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+843	Mammals	4	21	The Sound	The Sound	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+844	Mammals	5	21	Kiel Bay	Kiel Bay	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+845	Mammals	6	21	Bay of Mecklenburg	Bay of Mecklenburg	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+846	Mammals	7	21	Arkona Basin	Arkona Basin	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+847	Mammals	8	21	Bornholm Basin	Bornholm Basin	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+848	Mammals	9	21	Gdansk Basin Polish Coastal waters	Gdansk Basin	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+849	Mammals	10	21	Eastern Gotland Basin	Eastern Gotland Basin	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+850	Mammals	11	21	Western Gotland Basin	Western Gotland Basin	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+851	Mammals	12	21	Gulf of Riga	Gulf of Riga	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+852	Mammals	13	21	Northern Baltic Proper	Northern Baltic Proper	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+853	Mammals	14	21	Gulf of Finland	Gulf of Finland	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+854	Mammals	15	21	Åland Sea	Åland Sea	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+855	Mammals	16	21	Bothnian Sea	Bothnian Sea	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+856	Mammals	17	21	The Quark	The Quark	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+857	Mammals	18	21	Bothnian Bay	Bothnian Bay	Nutritional status of seals - Grey seal, hunted	mm	1	10	49	70	36.8
+858	Mammals	3	22	Great Belt	Great Belt	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+859	Mammals	4	22	The Sound	The Sound	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+860	Mammals	5	22	Kiel Bay	Kiel Bay	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+861	Mammals	6	22	Bay of Mecklenburg	Bay of Mecklenburg	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+862	Mammals	7	22	Arkona Basin	Arkona Basin	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+863	Mammals	8	22	Bornholm Basin	Bornholm Basin	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+864	Mammals	9	22	Gdansk Basin Polish Coastal waters	Gdansk Basin	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+865	Mammals	10	22	Eastern Gotland Basin	Eastern Gotland Basin	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+866	Mammals	11	22	Western Gotland Basin	Western Gotland Basin	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+867	Mammals	12	22	Gulf of Riga	Gulf of Riga	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+868	Mammals	13	22	Northern Baltic Proper	Northern Baltic Proper	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+869	Mammals	14	22	Gulf of Finland	Gulf of Finland	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+870	Mammals	15	22	Åland Sea	Åland Sea	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+871	Mammals	16	22	Bothnian Sea	Bothnian Sea	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+872	Mammals	17	22	The Quark	The Quark	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+873	Mammals	18	22	Bothnian Bay	Bothnian Bay	Nutritional status of seals - Grey seal, by-catch	mm	1	10	35	70	29.4
+874	Mammals	3	18	Great Belt	Great Belt	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+875	Mammals	4	18	The Sound	The Sound	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+876	Mammals	5	18	Kiel Bay	Kiel Bay	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+877	Mammals	6	18	Bay of Mecklenburg	Bay of Mecklenburg	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+878	Mammals	7	18	Arkona Basin	Arkona Basin	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+879	Mammals	8	18	Bornholm Basin	Bornholm Basin	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+880	Mammals	9	18	Gdansk Basin Polish Coastal waters	Gdansk Basin	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+881	Mammals	10	18	Eastern Gotland Basin	Eastern Gotland Basin	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+882	Mammals	11	18	Western Gotland Basin	Western Gotland Basin	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+883	Mammals	12	18	Gulf of Riga	Gulf of Riga	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+884	Mammals	13	18	Northern Baltic Proper	Northern Baltic Proper	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+885	Mammals	14	18	Gulf of Finland	Gulf of Finland	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+886	Mammals	15	18	Åland Sea	Åland Sea	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+887	Mammals	16	18	Bothnian Sea	Bothnian Sea	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+888	Mammals	17	18	The Quark	The Quark	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+889	Mammals	18	18	Bothnian Bay	Bothnian Bay	Reproductive status of seals - Grey seal	%	1	0	90	100	80.7
+890	Mammals	12	2	Gulf of Riga	Gulf of Riga	Distribution of Baltic seals - Ringed seal, breeding	qualitative	1	0	0.5	1	0.25
+891	Mammals	13	2	Northern Baltic Proper	Northern Baltic Proper	Distribution of Baltic seals - Ringed seal, breeding	qualitative	1	0	0.5	1	0.25
+892	Mammals	14	2	Gulf of Finland	Gulf of Finland	Distribution of Baltic seals - Ringed seal, breeding	qualitative	1	0	0.5	1	0.25
+893	Mammals	15	2	Åland Sea	Åland Sea	Distribution of Baltic seals - Ringed seal, breeding	qualitative	1	0	0.5	1	0.25
+894	Mammals	16	2	Bothnian Sea	Bothnian Sea	Distribution of Baltic seals - Ringed seal, breeding	qualitative	1	0	0.5	1	0.25
+895	Mammals	17	2	The Quark	The Quark	Distribution of Baltic seals - Ringed seal, breeding	qualitative	1	0	0.5	1	0.25
+896	Mammals	18	2	Bothnian Bay	Bothnian Bay	Distribution of Baltic seals - Ringed seal, breeding	qualitative	1	0	0.5	1	0.25
+897	Mammals	12	3	Gulf of Riga	Gulf of Riga	Distribution of Baltic seals - Ringed seal, moulting	qualitative	1	0	0.5	1	0.25
+898	Mammals	13	3	Northern Baltic Proper	Northern Baltic Proper	Distribution of Baltic seals - Ringed seal, moulting	qualitative	1	0	0.5	1	0.25
+899	Mammals	14	3	Gulf of Finland	Gulf of Finland	Distribution of Baltic seals - Ringed seal, moulting	qualitative	1	0	0.5	1	0.25
+900	Mammals	15	3	Åland Sea	Åland Sea	Distribution of Baltic seals - Ringed seal, moulting	qualitative	1	0	0.5	1	0.25
+901	Mammals	16	3	Bothnian Sea	Bothnian Sea	Distribution of Baltic seals - Ringed seal, moulting	qualitative	1	0	0.5	1	0.25
+902	Mammals	17	3	The Quark	The Quark	Distribution of Baltic seals - Ringed seal, moulting	qualitative	1	0	0.5	1	0.25
+903	Mammals	18	3	Bothnian Bay	Bothnian Bay	Distribution of Baltic seals - Ringed seal, moulting	qualitative	1	0	0.5	1	0.25
+904	Mammals	12	4	Gulf of Riga	Gulf of Riga	Distribution of Baltic seals - Ringed seal, occupancy	qualitative	1	0	0.5	1	0.75
+905	Mammals	13	4	Northern Baltic Proper	Northern Baltic Proper	Distribution of Baltic seals - Ringed seal, occupancy	qualitative	1	0	0.5	1	0.75
+906	Mammals	14	4	Gulf of Finland	Gulf of Finland	Distribution of Baltic seals - Ringed seal, occupancy	qualitative	1	0	0.5	1	0.75
+907	Mammals	15	4	Åland Sea	Åland Sea	Distribution of Baltic seals - Ringed seal, occupancy	qualitative	1	0	0.5	1	0.75
+908	Mammals	16	4	Bothnian Sea	Bothnian Sea	Distribution of Baltic seals - Ringed seal, occupancy	qualitative	1	0	0.5	1	0.75
+909	Mammals	17	4	The Quark	The Quark	Distribution of Baltic seals - Ringed seal, occupancy	qualitative	1	0	0.5	1	0.75
+910	Mammals	18	4	Bothnian Bay	Bothnian Bay	Distribution of Baltic seals - Ringed seal, occupancy	qualitative	1	0	0.5	1	0.75
+911	Mammals	3	5	Great Belt	Great Belt	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.25
+912	Mammals	4	5	The Sound	The Sound	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.25
+913	Mammals	5	5	Kiel Bay	Kiel Bay	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.25
+914	Mammals	6	5	Bay of Mecklenburg	Bay of Mecklenburg	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.25
+915	Mammals	7	5	Arkona Basin	Arkona Basin	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.25
+916	Mammals	8	5	Bornholm Basin	Bornholm Basin	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+917	Mammals	9	5	Gdansk Basin Polish Coastal waters	Gdansk Basin	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+918	Mammals	10	5	Eastern Gotland Basin	Eastern Gotland Basin	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+919	Mammals	11	5	Western Gotland Basin	Western Gotland Basin	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+920	Mammals	12	5	Gulf of Riga	Gulf of Riga	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+921	Mammals	13	5	Northern Baltic Proper	Northern Baltic Proper	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+922	Mammals	14	5	Gulf of Finland	Gulf of Finland	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+923	Mammals	15	5	Åland Sea	Åland Sea	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+924	Mammals	16	5	Bothnian Sea	Bothnian Sea	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+925	Mammals	17	5	The Quark	The Quark	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+926	Mammals	18	5	Bothnian Bay	Bothnian Bay	Distribution of Baltic seals - Grey seal, breeding	qualitative	1	0	0.5	1	0.75
+927	Mammals	3	6	Great Belt	Great Belt	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.25
+928	Mammals	4	6	The Sound	The Sound	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.25
+929	Mammals	5	6	Kiel Bay	Kiel Bay	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.25
+930	Mammals	6	6	Bay of Mecklenburg	Bay of Mecklenburg	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.25
+931	Mammals	7	6	Arkona Basin	Arkona Basin	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.25
+932	Mammals	8	6	Bornholm Basin	Bornholm Basin	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+933	Mammals	9	6	Gdansk Basin Polish Coastal waters	Gdansk Basin	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+934	Mammals	10	6	Eastern Gotland Basin	Eastern Gotland Basin	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+935	Mammals	11	6	Western Gotland Basin	Western Gotland Basin	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+936	Mammals	12	6	Gulf of Riga	Gulf of Riga	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+937	Mammals	13	6	Northern Baltic Proper	Northern Baltic Proper	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+938	Mammals	14	6	Gulf of Finland	Gulf of Finland	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+939	Mammals	15	6	Åland Sea	Åland Sea	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+940	Mammals	16	6	Bothnian Sea	Bothnian Sea	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+941	Mammals	17	6	The Quark	The Quark	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+942	Mammals	18	6	Bothnian Bay	Bothnian Bay	Distribution of Baltic seals - Grey seal, moulting	qualitative	1	0	0.5	1	0.75
+943	Mammals	3	7	Great Belt	Great Belt	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+944	Mammals	4	7	The Sound	The Sound	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+945	Mammals	5	7	Kiel Bay	Kiel Bay	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+946	Mammals	6	7	Bay of Mecklenburg	Bay of Mecklenburg	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+947	Mammals	7	7	Arkona Basin	Arkona Basin	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+948	Mammals	8	7	Bornholm Basin	Bornholm Basin	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+949	Mammals	9	7	Gdansk Basin Polish Coastal waters	Gdansk Basin	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+950	Mammals	10	7	Eastern Gotland Basin	Eastern Gotland Basin	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+951	Mammals	11	7	Western Gotland Basin	Western Gotland Basin	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+952	Mammals	12	7	Gulf of Riga	Gulf of Riga	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+953	Mammals	13	7	Northern Baltic Proper	Northern Baltic Proper	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+954	Mammals	14	7	Gulf of Finland	Gulf of Finland	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+955	Mammals	15	7	Åland Sea	Åland Sea	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+956	Mammals	16	7	Bothnian Sea	Bothnian Sea	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+957	Mammals	17	7	The Quark	The Quark	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+958	Mammals	18	7	Bothnian Bay	Bothnian Bay	Distribution of Baltic seals - Grey seal, occupancy	qualitative	1	0	0.5	1	0.75
+959	Mammals	2	8	Kattegat	Kattegatt	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.75
+960	Mammals	3	8	Great Belt	Great Belt	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.25
+961	Mammals	4	8	The Sound	The Sound	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.25
+962	Mammals	5	8	Kiel Bay	Kiel Bay	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.25
+963	Mammals	6	8	Bay of Mecklenburg	Bay of Mecklenburg	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.25
+964	Mammals	7	8	Arkona Basin	Arkona Basin	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.25
+965	Mammals	8	8	Bornholm Basin	Bornholm Basin	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.75
+966	Mammals	11	8	Western Gotland Basin	Western Gotland Basin	Distribution of Baltic seals - Harbour seal, breeding	qualitative	1	0	0.5	1	0.75
+967	Mammals	2	9	Kattegat	Kattegatt	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.75
+968	Mammals	3	9	Great Belt	Great Belt	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.25
+969	Mammals	4	9	The Sound	The Sound	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.25
+970	Mammals	5	9	Kiel Bay	Kiel Bay	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.25
+971	Mammals	6	9	Bay of Mecklenburg	Bay of Mecklenburg	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.25
+972	Mammals	7	9	Arkona Basin	Arkona Basin	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.25
+973	Mammals	8	9	Bornholm Basin	Bornholm Basin	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.75
+974	Mammals	11	9	Western Gotland Basin	Western Gotland Basin	Distribution of Baltic seals - Harbour seal, moulting	qualitative	1	0	0.5	1	0.75
+975	Mammals	2	10	Kattegat	Kattegatt	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+976	Mammals	3	10	Great Belt	Great Belt	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+977	Mammals	4	10	The Sound	The Sound	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+978	Mammals	5	10	Kiel Bay	Kiel Bay	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+979	Mammals	6	10	Bay of Mecklenburg	Bay of Mecklenburg	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+980	Mammals	7	10	Arkona Basin	Arkona Basin	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+981	Mammals	8	10	Bornholm Basin	Bornholm Basin	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+982	Mammals	11	10	Western Gotland Basin	Western Gotland Basin	Distribution of Baltic seals - Harbour seal, occupancy	qualitative	1	0	0.5	1	0.75
+983	Mammals	12	11	Gulf of Riga	Gulf of Riga	Population trends and abundance of seals - Ringed seal, abundance	individuals	1	0	10000	15000	1250
+984	Mammals	13	11	Northern Baltic Proper	Northern Baltic Proper	Population trends and abundance of seals - Ringed seal, abundance	individuals	1	0	10000	15000	1250
+985	Mammals	14	11	Gulf of Finland	Gulf of Finland	Population trends and abundance of seals - Ringed seal, abundance	individuals	1	0	10000	15000	1250
+986	Mammals	15	11	Åland Sea	Åland Sea	Population trends and abundance of seals - Ringed seal, abundance	individuals	1	0	10000	15000	1250
+987	Mammals	16	11	Bothnian Sea	Bothnian Sea	Population trends and abundance of seals - Ringed seal, abundance	individuals	1	0	10000	75000	20000
+988	Mammals	17	11	The Quark	The Quark	Population trends and abundance of seals - Ringed seal, abundance	individuals	1	0	10000	75000	20000
+989	Mammals	18	11	Bothnian Bay	Bothnian Bay	Population trends and abundance of seals - Ringed seal, abundance	individuals	1	0	10000	75000	20000
+990	Mammals	12	12	Gulf of Riga	Gulf of Riga	Population trends and abundance of seals - Ringed seal, pop.growth	%	1	50	107	112	100
+991	Mammals	13	12	Northern Baltic Proper	Northern Baltic Proper	Population trends and abundance of seals - Ringed seal, pop.growth	%	1	50	107	112	100
+992	Mammals	14	12	Gulf of Finland	Gulf of Finland	Population trends and abundance of seals - Ringed seal, pop.growth	%	1	50	107	112	99.9
+993	Mammals	15	12	Åland Sea	Åland Sea	Population trends and abundance of seals - Ringed seal, pop.growth	%	1	50	107	112	100
+994	Mammals	16	12	Bothnian Sea	Bothnian Sea	Population trends and abundance of seals - Ringed seal, pop.growth	%	1	50	107	112	105
+995	Mammals	17	12	The Quark	The Quark	Population trends and abundance of seals - Ringed seal, pop.growth	%	1	50	107	112	105
+996	Mammals	18	12	Bothnian Bay	Bothnian Bay	Population trends and abundance of seals - Ringed seal, pop.growth	%	1	50	107	112	105
+997	Mammals	3	13	Great Belt	Great Belt	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+998	Mammals	4	13	The Sound	The Sound	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+999	Mammals	5	13	Kiel Bay	Kiel Bay	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1000	Mammals	6	13	Bay of Mecklenburg	Bay of Mecklenburg	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1001	Mammals	7	13	Arkona Basin	Arkona Basin	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1002	Mammals	8	13	Bornholm Basin	Bornholm Basin	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1003	Mammals	9	13	Gdansk Basin Polish Coastal waters	Gdansk Basin	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1004	Mammals	10	13	Eastern Gotland Basin	Eastern Gotland Basin	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1005	Mammals	11	13	Western Gotland Basin	Western Gotland Basin	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1006	Mammals	12	13	Gulf of Riga	Gulf of Riga	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1007	Mammals	13	13	Northern Baltic Proper	Northern Baltic Proper	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1008	Mammals	14	13	Gulf of Finland	Gulf of Finland	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1009	Mammals	15	13	Åland Sea	Åland Sea	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1010	Mammals	16	13	Bothnian Sea	Bothnian Sea	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1011	Mammals	17	13	The Quark	The Quark	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1012	Mammals	18	13	Bothnian Bay	Bothnian Bay	Population trends and abundance of seals - Grey seal, abundance	individuals	1	0	10000	70000	30000
+1013	Mammals	3	14	Great Belt	Great Belt	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1014	Mammals	4	14	The Sound	The Sound	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1015	Mammals	5	14	Kiel Bay	Kiel Bay	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1016	Mammals	6	14	Bay of Mecklenburg	Bay of Mecklenburg	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1017	Mammals	7	14	Arkona Basin	Arkona Basin	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1018	Mammals	8	14	Bornholm Basin	Bornholm Basin	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1019	Mammals	9	14	Gdansk Basin Polish Coastal waters	Gdansk Basin	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1020	Mammals	10	14	Eastern Gotland Basin	Eastern Gotland Basin	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1021	Mammals	11	14	Western Gotland Basin	Western Gotland Basin	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1022	Mammals	12	14	Gulf of Riga	Gulf of Riga	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1023	Mammals	13	14	Northern Baltic Proper	Northern Baltic Proper	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1024	Mammals	14	14	Gulf of Finland	Gulf of Finland	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1025	Mammals	15	14	Åland Sea	Åland Sea	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1026	Mammals	16	14	Bothnian Sea	Bothnian Sea	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1027	Mammals	17	14	The Quark	The Quark	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1028	Mammals	18	14	Bothnian Bay	Bothnian Bay	Population trends and abundance of seals - Grey seal, pop.growth	% decrease	1	50	99	112	105.5
+1029	Mammals	2	15	Kattegat	Kattegatt	Population trends and abundance of seals - Harbour seal, abundance	individuals	1	0	10000	12000	14000
+1030	Mammals	3	15	Great Belt	Great Belt	Population trends and abundance of seals - Harbour seal, abundance		1	0	10000	12000	14000
+1031	Mammals	4	15	The Sound	The Sound	Population trends and abundance of seals - Harbour seal, abundance		1	0	10000	12000	14000
+1032	Mammals	5	15	Kiel Bay	Kiel Bay	Population trends and abundance of seals - Harbour seal, abundance		1	0	10000	12000	14000
+1033	Mammals	6	15	Bay of Mecklenburg	Bay of Mecklenburg	Population trends and abundance of seals - Harbour seal, abundance		1	0	10000	12000	14000
+1034	Mammals	7	15	Arkona Basin	Arkona Basin	Population trends and abundance of seals - Harbour seal, abundance		1	0	10000	12000	14000
+1035	Mammals	8	15	Bornholm Basin	Bornholm Basin	Population trends and abundance of seals - Harbour seal, abundance	individuals	1	0	4999.9	5000	1000
+1036	Mammals	11	15	Western Gotland Basin	Western Gotland Basin	Population trends and abundance of seals - Harbour seal, abundance		1	0	4999.9	5000	1000
+1037	Mammals	2	16	Kattegat	Kattegat	Population trends and abundance of seals - Harbour seal, pop.growth	% decrease	1	50	99	113	105.6
+1038	Mammals	3	16	Great Belt	Great Belt	Population trends and abundance of seals - Harbour seal, pop.growth	% decrease	1	50	109	113	107.1
+1039	Mammals	4	16	The Sound	The Sound	Population trends and abundance of seals - Harbour seal, pop.growth	% decrease	1	50	109	113	107.1
+1040	Mammals	5	16	Kiel Bay	Kiel Bay	Population trends and abundance of seals - Harbour seal, pop.growth	% decrease	1	50	109	113	107.1
+1041	Mammals	6	16	Bay of Mecklenburg	Bay of Mecklenburg	Population trends and abundance of seals - Harbour seal, pop.growth	% decrease	1	50	109	113	107.1
+1042	Mammals	7	16	Arkona Basin	Arkona Basin	Population trends and abundance of seals - Harbour seal, pop.growth	% decrease	1	50	109	113	107.1
+1043	Mammals	8	16	Bornholm Basin	Bornholm Basin	Population trends and abundance of seals - Harbour seal, pop.growth	% decrease	1	50	109	113	108.4
+1044	Mammals	11	16	Western Gotland Basin	Western Gotland Basin	Population trends and abundance of seals - Harbour seal, pop.growth	% increase	1	50	109	113	108.4
+1046	Fish	36	59	Bothnian Bay Finnish Coastal waters	Bothnian Bay Finnish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.875
+1047	Fish	37	59	Bothnian Bay Swedish Coastal waters	Bothnian Bay Swedish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1048	Fish	38	59	The Quark Finnish Coastal waters	The Quark Finnish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1049	Fish	39	59	The Quark Swedish Coastal waters	The Quark Swedish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.375
+1050	Fish	40	59	Bothnian Sea Finnish Coastal waters	Bothnian Sea Finnish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1051	Fish	41	59	Bothnian Sea Swedish Coastal waters	Bothnian Sea Swedish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1052	Fish	43	59	Åland Sea Swedish Coastal waters	Åland Sea Swedish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1053	Fish	44	59	Archipelago Sea Coastal waters	Archipelago Sea Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1054	Fish	46	59	Northern Baltic Proper Swedish Coastal waters	Northern Baltic Proper Swedish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1055	Fish	48	59	Gulf of Finland Finnish Coastal waters 	Gulf of Finland Finnish Coastal waters 	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.875
+1056	Fish	51	59	Gulf of Riga Estonian Coastal waters 	Gulf of Riga Estonian Coastal waters 	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.375
+1057	Fish	52	59	Gulf of Riga Latvian Coastal waters 	Gulf of Riga Latvian Coastal waters 	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1058	Fish	53	59	Western Gotland Basin Swedish Coastal waters	Western Gotland Basin Swedish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.375
+1059	Fish	55	59	Eastern Gotland Basin Latvian Coastal waters	Eastern Gotland Basin Latvian Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.875
+1060	Fish	56	59	Eastern Gotland Basin Lithuanian Coastal waters	Eastern Gotland Basin Lithuanian Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.625
+1061	Fish	62	59	Bornholm Basin Swedish Coastal waters	Bornholm Basin Swedish Coastal waters	Abundance of coastal fish key functional groups - Piscivores	average indicator value	1	0	0.5	1	0.875
+1062	Fish	36	60	Bothnian Bay Finnish Coastal waters	Bothnian Bay Finnish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.625
+1063	Fish	37	60	Bothnian Bay Swedish Coastal waters	Bothnian Bay Swedish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.625
+1064	Fish	38	60	The Quark Finnish Coastal waters	The Quark Finnish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.375
+1065	Fish	39	60	The Quark Swedish Coastal waters	The Quark Swedish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.375
+1066	Fish	40	60	Bothnian Sea Finnish Coastal waters	Bothnian Sea Finnish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.125
+1067	Fish	41	60	Bothnian Sea Swedish Coastal waters	Bothnian Sea Swedish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.625
+1068	Fish	43	60	Åland Sea Swedish Coastal waters	Åland Sea Swedish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.125
+1069	Fish	44	60	Archipelago Sea Coastal waters	Archipelago Sea Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.125
+1070	Fish	46	60	Northern Baltic Proper Swedish Coastal waters	Northern Baltic Proper Swedish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.625
+1071	Fish	48	60	Gulf of Finland Finnish Coastal waters 	Gulf of Finland Finnish Coastal waters 	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.375
+1072	Fish	51	60	Gulf of Riga Estonian Coastal waters 	Gulf of Riga Estonian Coastal waters 	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.375
+1073	Fish	52	60	Gulf of Riga Latvian Coastal waters 	Gulf of Riga Latvian Coastal waters 	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.375
+1074	Fish	53	60	Western Gotland Basin Swedish Coastal waters	Western Gotland Basin Swedish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.625
+1075	Fish	55	60	Eastern Gotland Basin Latvian Coastal waters	Eastern Gotland Basin Latvian Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.375
+1076	Fish	56	60	Eastern Gotland Basin Lithuanian Coastal waters	Eastern Gotland Basin Lithuanian Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.625
+1077	Fish	62	60	Bornholm Basin Swedish Coastal waters	Bornholm Basin Swedish Coastal waters	Abundance of coastal fish key functional groups - Cyprinids/mesopredators	average indicator value	1	0	0.5	1	0.625
+1078	Fish	36	66	Bothnian Bay Finnish Coastal waters	Bothnian Bay Finnish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.875
+1079	Fish	37	66	Bothnian Bay Swedish Coastal waters	Bothnian Bay Swedish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1080	Fish	38	66	The Quark Finnish Coastal waters	The Quark Finnish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1081	Fish	39	66	The Quark Swedish Coastal waters	The Quark Swedish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1082	Fish	40	66	Bothnian Sea Finnish Coastal waters	Bothnian Sea Finnish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1083	Fish	41	66	Bothnian Sea Swedish Coastal waters	Bothnian Sea Swedish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1084	Fish	43	66	Åland Sea Swedish Coastal waters	Åland Sea Swedish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1085	Fish	44	66	Archipelago Sea Coastal waters	Archipelago Sea Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.708333333
+1086	Fish	46	66	Northern Baltic Proper Swedish Coastal waters	Northern Baltic Proper Swedish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1087	Fish	48	66	Gulf of Finland Finnish Coastal waters 	Gulf of Finland Finnish Coastal waters 	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1088	Fish	51	66	Gulf of Riga Estonian Coastal waters 	Gulf of Riga Estonian Coastal waters 	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.375
+1089	Fish	52	66	Gulf of Riga Latvian Coastal waters 	Gulf of Riga Latvian Coastal waters 	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1090	Fish	53	66	Western Gotland Basin Swedish Coastal waters	Western Gotland Basin Swedish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.375
+1091	Fish	56	66	Eastern Gotland Basin Lithuanian Coastal waters	Eastern Gotland Basin Lithuanian Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.625
+1092	Fish	62	66	Bornholm Basin Swedish Coastal waters	Bornholm Basin Swedish Coastal waters	Abundance of key coastal fish species - Perch	average indicator value	1	0	0.5	1	0.875
+1093	Fish	46	67	Northern Baltic Proper Swedish Coastal waters	Northern Baltic Proper Swedish Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.625
+1094	Fish	53	67	Western Gotland Basin Swedish Coastal waters	Western Gotland Basin Swedish Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.375
+1095	Fish	55	67	Eastern Gotland Basin Latvian Coastal waters	Eastern Gotland Basin Latvian Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.875
+1096	Fish	56	67	Eastern Gotland Basin Lithuanian Coastal waters	Eastern Gotland Basin Lithuanian Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.625
+1097	Fish	67	67	Arkona Basin Danish Coastal waters	Arkona Basin Danish Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.375
+1098	Fish	70	67	Mecklenburg Bight Danish Coastal waters	Mecklenburg Bight Danish Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.375
+1099	Fish	73	67	Belts Danish Coastal waters	Belts Danish Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.125
+1100	Fish	75	67	The Sound Danish Coastal waters	The Sound Danish Coastal waters	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.375
+1101	Fish	77	67	Kattegat Danish Coastal waters, including Limfjorden 	Kattegat Danish Coastal waters, including Limfjorden 	Abundance of key coastal fish species - Flounder	average indicator value	1	0	0.5	1	0.375

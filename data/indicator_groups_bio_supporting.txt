@@ -1,63 +1,63 @@
 Indicator	SubGroup	Group	QE	Exclude	Comment
-Furcellaria lumbricalis depth distribution	Macroalgae	Benthic	Biology		
-Zoobenthos Quality element (B)	Benthic fauna	Benthic	Biology		
-State of the soft-bottom macrofauna community	Benthic fauna	Benthic	Biology		
-Oxygen Debt	Supporting	Benthic	Biology		
-Proportion of perennial species	Macrophytes	Benthic	Biology		
-Zoobenthos Quality element	Benthic fauna	Benthic	Biology		
-Benthic Quality Index	Benthic fauna	Benthic	Biology		
+Furcellaria lumbricalis depth distribution	Macroalgae	Benthic	Biology	0	
+Zoobenthos Quality element (B)	Benthic fauna	Benthic	Biology	0	
+State of the soft-bottom macrofauna community	Benthic fauna	Benthic	Biology	0	
+Oxygen Debt	Supporting	Benthic	Biology	0	
+Proportion of perennial species	Macrophytes	Benthic	Biology	0	
+Zoobenthos Quality element	Benthic fauna	Benthic	Biology	0	
+Benthic Quality Index	Benthic fauna	Benthic	Biology	0	
 Secchi Depth	Supporting	Benthic	Biology	1	this is included in supporting indicators
 Secchi depth	Supporting	Benthic	Biology	1	this is included in supporting indicators
-BBI	Benthic fauna	Benthic	Biology		
-DKI	Benthic fauna	Benthic	Biology		
+BBI	Benthic fauna	Benthic	Biology	0	
+DKI	Benthic fauna	Benthic	Biology	0	
 Oxygen	Supporting	Benthic	Biology	1	this is included in supporting indicators
-Abundance of waterbirds in the breeding season - benthic feeders	Benthic Feeders	Birds	Biology		
-Abundance of waterbirds in the wintering season - benthic feeders	Benthic Feeders	Birds	Biology		
-Abundance of waterbirds in the breeding season - grazing feeders	Grazing Feeders	Birds	Biology		
-Abundance of waterbirds in the wintering season - grazing feeders	Grazing Feeders	Birds	Biology		
-Abundance of waterbirds in the breeding season - pelagic feeders	Pelagic Feeders	Birds	Biology		
-Abundance of waterbirds in the wintering season - pelagic feeders	Pelagic Feeders	Birds	Biology		
-Abundance of waterbirds in the breeding season - surface feeders	Surface Feeders	Birds	Biology		
-Abundance of waterbirds in the wintering season - surface feeders	Surface Feeders	Birds	Biology		
-Abundance of waterbirds in the breeding season - wading feeders	Wading Feeders	Birds	Biology		
-Abundance of coastal fish key functional groups - Cyprinids/mesopredators	Cyprinids/Mesopredators	Fish	Biology		
-Abundance of key coastal fish species - Flounder	Flounder	Fish	Biology		
-Abundance of key coastal fish species - Perch	Perch	Fish	Biology		
-Abundance of coastal fish key functional groups - Piscivores	Piscivores	Fish	Biology		
-Fucus vesiculosus depth distribution	Macroalgae	Benthic	Biology		
-Macrophytes macroflora depth distribution	Macrophytes	Benthic	Biology		
-Macrovegetation Quality element (SM1)	Macrophytes	Benthic	Biology		
-Macrophytes sheltered	Macrophytes	Benthic	Biology		
-Macrovegetation Quality element	Macrophytes	Benthic	Biology		
-Phytobenthos Ecological Quality Index	Macrophytes	Benthic	Biology		
-EELGRASS	Macrophytes	Benthic	Biology		
-Distribution of Baltic seals - Grey seal, breeding	Grey Seal	Mammals	Biology		
-Distribution of Baltic seals - Grey seal, moulting	Grey Seal	Mammals	Biology		
-Distribution of Baltic seals - Grey seal, occupancy	Grey Seal	Mammals	Biology		
-Nutritional status of seals - Grey seal, by-catch	Grey Seal	Mammals	Biology		
-Nutritional status of seals - Grey seal, hunted	Grey Seal	Mammals	Biology		
-Population trends and abundance of seals - Grey seal, abundance	Grey Seal	Mammals	Biology		
-Population trends and abundance of seals - Grey seal, pop.growth	Grey Seal	Mammals	Biology		
-Reproductive status of seals - Grey seal	Grey Seal	Mammals	Biology		
-Distribution of Baltic seals - Harbour seal, breeding	Harbour Seal	Mammals	Biology		
-Distribution of Baltic seals - Harbour seal, moulting	Harbour Seal	Mammals	Biology		
-Distribution of Baltic seals - Harbour seal, occupancy	Harbour Seal	Mammals	Biology		
-Population trends and abundance of seals - Harbour seal, abundance	Harbour Seal	Mammals	Biology		
-Population trends and abundance of seals - Harbour seal, pop.growth	Harbour Seal	Mammals	Biology		
-Distribution of Baltic seals - Ringed seal, breeding	Ringed Seal	Mammals	Biology		
-Distribution of Baltic seals - Ringed seal, moulting	Ringed Seal	Mammals	Biology		
-Distribution of Baltic seals - Ringed seal, occupancy	Ringed Seal	Mammals	Biology		
-Population trends and abundance of seals - Ringed seal, abundance	Ringed Seal	Mammals	Biology		
-Population trends and abundance of seals - Ringed seal, pop.growth	Ringed Seal	Mammals	Biology		
-Chl a annual	Phytoplankton	Pelagic	Biology		
-Cyanobacteria Bloom Index	Phytoplankton	Pelagic	Biology		
-CHL-A	Phytoplankton	Pelagic	Biology		
-Chlorophyll a	Phytoplankton	Pelagic	Biology		
-Phytoplankton biovolume	Phytoplankton	Pelagic	Biology		
-Zooplankton mean size	Zooplankton	Pelagic	Biology		
-Zooplankton biomass	Zooplankton	Pelagic	Biology		
-Dissolved Inorganic Nitrogen, Winter		Nutrient levels	Supporting		
-Dissolved Inorganic Phosphorus, Winter		Nutrient levels	Supporting		
+Abundance of waterbirds in the breeding season - benthic feeders	Benthic Feeders	Birds	Biology	0	
+Abundance of waterbirds in the wintering season - benthic feeders	Benthic Feeders	Birds	Biology	0	
+Abundance of waterbirds in the breeding season - grazing feeders	Grazing Feeders	Birds	Biology	0	
+Abundance of waterbirds in the wintering season - grazing feeders	Grazing Feeders	Birds	Biology	0	
+Abundance of waterbirds in the breeding season - pelagic feeders	Pelagic Feeders	Birds	Biology	0	
+Abundance of waterbirds in the wintering season - pelagic feeders	Pelagic Feeders	Birds	Biology	0	
+Abundance of waterbirds in the breeding season - surface feeders	Surface Feeders	Birds	Biology	0	
+Abundance of waterbirds in the wintering season - surface feeders	Surface Feeders	Birds	Biology	0	
+Abundance of waterbirds in the breeding season - wading feeders	Wading Feeders	Birds	Biology	0	
+Abundance of coastal fish key functional groups - Cyprinids/mesopredators	Cyprinids/Mesopredators	Fish	Biology	0	
+Abundance of key coastal fish species - Flounder	Flounder	Fish	Biology	0	
+Abundance of key coastal fish species - Perch	Perch	Fish	Biology	0	
+Abundance of coastal fish key functional groups - Piscivores	Piscivores	Fish	Biology	0	
+Fucus vesiculosus depth distribution	Macroalgae	Benthic	Biology	0	
+Macrophytes macroflora depth distribution	Macrophytes	Benthic	Biology	0	
+Macrovegetation Quality element (SM1)	Macrophytes	Benthic	Biology	0	
+Macrophytes sheltered	Macrophytes	Benthic	Biology	0	
+Macrovegetation Quality element	Macrophytes	Benthic	Biology	0	
+Phytobenthos Ecological Quality Index	Macrophytes	Benthic	Biology	0	
+EELGRASS	Macrophytes	Benthic	Biology	0	
+Distribution of Baltic seals - Grey seal, breeding	Grey Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Grey seal, moulting	Grey Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Grey seal, occupancy	Grey Seal	Mammals	Biology	0	
+Nutritional status of seals - Grey seal, by-catch	Grey Seal	Mammals	Biology	0	
+Nutritional status of seals - Grey seal, hunted	Grey Seal	Mammals	Biology	0	
+Population trends and abundance of seals - Grey seal, abundance	Grey Seal	Mammals	Biology	0	
+Population trends and abundance of seals - Grey seal, pop.growth	Grey Seal	Mammals	Biology	0	
+Reproductive status of seals - Grey seal	Grey Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Harbour seal, breeding	Harbour Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Harbour seal, moulting	Harbour Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Harbour seal, occupancy	Harbour Seal	Mammals	Biology	0	
+Population trends and abundance of seals - Harbour seal, abundance	Harbour Seal	Mammals	Biology	0	
+Population trends and abundance of seals - Harbour seal, pop.growth	Harbour Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Ringed seal, breeding	Ringed Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Ringed seal, moulting	Ringed Seal	Mammals	Biology	0	
+Distribution of Baltic seals - Ringed seal, occupancy	Ringed Seal	Mammals	Biology	0	
+Population trends and abundance of seals - Ringed seal, abundance	Ringed Seal	Mammals	Biology	0	
+Population trends and abundance of seals - Ringed seal, pop.growth	Ringed Seal	Mammals	Biology	0	
+Chl a annual	Phytoplankton	Pelagic	Biology	0	
+Cyanobacteria Bloom Index	Phytoplankton	Pelagic	Biology	0	
+CHL-A	Phytoplankton	Pelagic	Biology	0	
+Chlorophyll a	Phytoplankton	Pelagic	Biology	0	
+Phytoplankton biovolume	Phytoplankton	Pelagic	Biology	0	
+Zooplankton mean size	Zooplankton	Pelagic	Biology	0	
+Zooplankton biomass	Zooplankton	Pelagic	Biology	0	
+Dissolved Inorganic Nitrogen, Winter		Nutrient levels	Supporting	0	
+Dissolved Inorganic Phosphorus, Winter		Nutrient levels	Supporting	0	
 Chlorophyll a (eo), Summer		Direct Effects	Supporting	1	this is included in biology indicators
 Chlorophyll a (fb), Summer		Direct Effects	Supporting	1	this is included in biology indicators
 Chlorophyll a (in-situ), Summer		Direct Effects	Supporting	1	this is included in biology indicators
@@ -65,27 +65,27 @@ Chlorophyll a, Summer		Direct Effects	Supporting	1	this is included in biology i
 Cyanobacteria Bloom Index (eo), Annual		Direct Effects	Supporting	1	this is included in biology indicators
 Cyanobacteria Bloom Index (in-situ), Annual		Direct Effects	Supporting	1	this is included in biology indicators
 Cyanobacteria Bloom Index, Annual		Direct Effects	Supporting	1	this is included in biology indicators
-Secchi Depth, Summer		Indirect effects	Supporting		
-Oxygen Debt, Annual		Indirect effects	Supporting		
-Total Nitrogen, Annual		Nutrient levels	Supporting		
-ER Dissolved Inorganic Nitrogen, Winter		Nutrient levels	Supporting		
-ER Dissolved Inorganic Phosphorus, Winter		Nutrient levels	Supporting		
-ER Total Nitrogen, Summer		Nutrient levels	Supporting		
-ER Total Nitrogen, Winter		Nutrient levels	Supporting		
-ER Total Phosphorus, Summer		Nutrient levels	Supporting		
-ER Total Phosphorus, Winter		Nutrient levels	Supporting		
-Total Phosphorus, Annual		Nutrient levels	Supporting		
+Secchi Depth, Summer		Indirect effects	Supporting	0	
+Oxygen Debt, Annual		Indirect effects	Supporting	0	
+Total Nitrogen, Annual		Nutrient levels	Supporting	0	
+ER Dissolved Inorganic Nitrogen, Winter		Nutrient levels	Supporting	0	
+ER Dissolved Inorganic Phosphorus, Winter		Nutrient levels	Supporting	0	
+ER Total Nitrogen, Summer		Nutrient levels	Supporting	0	
+ER Total Nitrogen, Winter		Nutrient levels	Supporting	0	
+ER Total Phosphorus, Summer		Nutrient levels	Supporting	0	
+ER Total Phosphorus, Winter		Nutrient levels	Supporting	0	
+Total Phosphorus, Annual		Nutrient levels	Supporting	0	
 ER Chlorophyll a, Summer		Direct Effects	Supporting	1	this is included in biology indicators
 ER Benthic Quality Index, Summer		Indirect effects	Supporting	1	this is included in biology indicators
 ER Macrovegetation Quality element, Summer		Indirect effects	Supporting	1	this is included in biology indicators
-ER Oxygen, Summer		Indirect effects	Supporting		
-ER Secchi Depth, Summer		Indirect effects	Supporting		
-Benthic Quality Index, Summer		Indirect effects	Supporting		
-Total Nitrogen, Summer		Nutrient levels	Supporting		
-Total Phosphorus, Summer		Nutrient levels	Supporting		
+ER Oxygen, Summer		Indirect effects	Supporting	0	
+ER Secchi Depth, Summer		Indirect effects	Supporting	0	
+Benthic Quality Index, Summer		Indirect effects	Supporting	0	
+Total Nitrogen, Summer		Nutrient levels	Supporting	0	
+Total Phosphorus, Summer		Nutrient levels	Supporting	0	
 BBI, Summer		Indirect effects	Supporting	1	this is included in biology indicators
 Furcellaria lumbricalis depth distribution, Summer		Indirect effects	Supporting	1	this is included in biology indicators
-Oxygen, Summer		Indirect effects	Supporting		
+Oxygen, Summer		Indirect effects	Supporting	0	
 Zoobenthos Quality element		Indirect effects	Supporting	1	this is included in biology indicators
 Phytoplankton biovolume, Summer		Direct Effects	Supporting	1	this is included in biology indicators
 Macrophytes sheltered, Summer		Indirect effects	Supporting	1	this is included in biology indicators
@@ -96,7 +96,7 @@ Large inverterbrates FDI, Summer		Indirect effects	Supporting	1	this is included
 Large inverterbrates KPI, Summer		Indirect effects	Supporting	1	this is included in biology indicators
 Proportion of perennial species, Summer		Indirect effects	Supporting	1	this is included in biology indicators
 Depth limit of eelgrass (macrophytes), Summer		Indirect effects	Supporting	1	this is included in biology indicators
-Dissolved Inorganic Nitrogen, Annual		Nutrient levels	Supporting		
+Dissolved Inorganic Nitrogen, Annual		Nutrient levels	Supporting	0	
 Chlorophyll a, Annual		Direct Effects	Supporting	1	this is included in biology indicators
 Secchi depth, Annual		Indirect effects	Supporting	1	this is included in biology indicators
 ER Phytoplankton biovolume, Summer		Direct Effects	Supporting	1	this is included in biology indicators
