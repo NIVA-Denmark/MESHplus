@@ -76,14 +76,13 @@ dfGrid <- read.table(
   stringsAsFactors = F
 ) %>%
   filter(REGION == "Baltic Sea") %>%
-  select(GRIDCODE)
+  select(GridID = GRIDCODE)
 
 # Conversion from CHASE+ contamination Sum (CS) and HEAT+ Eutrophication Ratio
-# (ER) to EQR.
+# (ER) to EQR uses corresponding values from the 3 scales:
 listEQR <- c(0, 0.2, 0.4, 0.6, 0.8, 1.0)
 listCS <- c(50, 10, 5, 1, 0.5, 0)
 listER <- c(2.5, 2, 1.5, 1, 0.5, 0)
-dfConvert <- data.frame(CS = CS, ER = ER, EQR = EQR)
 
 
 # Calculate Biology -------------------------------------------------------
@@ -172,9 +171,55 @@ dfSuppQE <- dfSuppQE %>%
   mutate(ER = ifelse(ER < min(listER), min(listER), ER)) %>%
   rowwise() %>%
   mutate(EQR = approx(x = listER, y = listEQR, xout = ER)[[2]])  %>%
-  select(-CSavg)
+  select(-ER)
 
 
 # Combine Biology, Chemistry & Supporting ---------------------------------
-df <- bind_rows(dfBioQE,dfChemQE,dfSuppQE)
+df <- bind_rows(dfBioQE, dfChemQE, dfSuppQE)
+df <- dfGrid %>% left_join(df, by = "GridID")
 
+# Calculate the worst (minimum) EQR for each Grid cell
+df_worst_EQR <- df %>%
+  group_by(GridID) %>%
+  summarise(EQR = min(EQR, na.rm = T))
+
+# find the quality element responsible
+df_worst_QE <- df_worst_EQR %>%
+  left_join(df, by = c("GridID", "EQR"))
+
+# if two QEs have the same worst EQR value in the same Grid cell, take only the first one
+df_worst_QE <- df_worst_QE %>%
+  group_by(GridID) %>%
+  arrange(GridID, EQR) %>%
+  slice(1) %>%
+  ungroup() %>%
+  rename(Worst = QE)
+
+# arrange QE EQR values in columns (wide)
+df_QE <- df %>%
+  spread(key = QE, value = EQR) %>%
+  mutate(
+    Cat_Bio = ifelse(Biology == 1, 1, 5 - floor(5 * Biology)),
+    Cat_Chem = ifelse(Chemistry == 1, 1, 5 - floor(5 * Chemistry)),
+    Cat_Supp = ifelse(Supporting == 1, 1, 5 - floor(5 * Supporting))
+  )
+
+# include columns for the final overall (worst) EQR and show the worst QE
+df_MESH <- df_QE %>%
+  left_join(df_worst_QE, by = "GridID") %>%
+  mutate(Cat_MESH = ifelse(EQR == 1, 1, 5 - floor(5 * EQR)))
+
+# Save Results ------------------------------------------------------------
+
+# write the results to text file for plotting in ArcGIS
+write.table(
+  df_MESH,
+  file = "results/20181218/MESH_Baltic.csv",
+  sep = ",",
+  row.names = F,
+  col.names = T,
+  quote = F,
+  na = ""
+)
+
+save(dfBio,dfBioGroup,file="results.Rda")
