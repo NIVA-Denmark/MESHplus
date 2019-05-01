@@ -103,7 +103,7 @@ dfGroup <- read.table(
   stringsAsFactors = F
 )
 
-# Load EEA Grid cell Region information and select Baltic Sea grid cells
+# Load EEA Grid cell Region information
 dfGrid <- read.table(
   file = "data/HEAT/grid_all.txt",
   quote = "",
@@ -111,7 +111,6 @@ dfGrid <- read.table(
   header = T,
   stringsAsFactors = F
 ) %>%
-  #filter(REGION == "Baltic Sea") %>%
   select(GridID = GRIDCODE)
 
 # Conversion from CHASE+ contamination Sum (CS) and HEAT+ Eutrophication Ratio
@@ -253,6 +252,16 @@ df_MESH <- df_QE %>%
   mutate(Cat_MESH = ifelse(EQR == 1, 1, 5 - floor(5 * EQR)))
 
 df_MESH <- dfGrid %>%
-  left_join(df_MESH,by="GridID")
+  left_join(df_MESH,by="GridID") %>%
+  mutate(Worst=ifelse(EQR<0.6,Worst,"-"))
 
 #
+
+dfGrid <- read.table(
+  file = "data/HEAT/grid_all.txt",
+  quote = "",
+  sep = ";",
+  header = T,
+  stringsAsFactors = F
+) %>%
+  select(GridID=GRIDCODE,REGION)
