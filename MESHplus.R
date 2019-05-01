@@ -13,26 +13,35 @@ library(tidyverse)
 # Biodiversity (NEAT) already uses a 0.0-1.0 scale conversion for HEAT+
 # Eutrophication Ratio (ER) and CHASE+ Contamination Ratio (CR) is done using
 # the following fixed points:
+# CS <- 0 ,0.5, 1.0, 5.0, 10.0, 50.0
+# ER <- 0, 0.5, 1.0, 1.5, 2.0, 2.5 
 
 # Read input data  ---------------------------------------------------------------
 
-# Biology indicators
+# Biology indicators -------------------------------------------------------------------------------
+# results from BEAT+ by group 
+#MxId	SpatialAssessmentUnit	EEA_Region	EEA_SubRegion	Benthic	Birds	Fish	Mammals	Pelagic	WorstBQR	WorstCase	AreaKm2
 dfBio <- read.table(
-  file = "data/indicators_biodiv.txt",
+  file = "data/biodiv_groups.txt",
   quote = "",
   sep = "\t",
   header = T,
   stringsAsFactors = F
 ) %>%
-  select(GridID = GRIDCODE,
-         Indicator,
-         Unit,
-         Bad,
-         Threshold,
-         Reference,
-         Status)
+  select(GridID=SpatialAssessmentUnit,
+         Benthic,
+         Birds,
+         Fish,
+         Mammals,
+         Pelagic) %>%
+  gather(key="Indicator",value="EQR",Benthic,Birds,Fish,Mammals,Pelagic) %>%
+  filter(!is.na(EQR))
 
-# Chemistry Indicators
+#dfBio <- dfBio %>% filter(Indicator!="Pelagic")
+ 
+
+
+# Chemistry Indicators -------------------------------------------------------------------------------
 dfChem <- read.table(
   file = "data/CHASE/CHASE_input.csv",
   quote = "",
@@ -40,9 +49,9 @@ dfChem <- read.table(
   header = T,
   stringsAsFactors = F
 ) %>%
-  select(GridID, Group = Category, Indicator = GROUP, CR)
+  select(GridID, Group = Category, Indicator = Substance, CR)
 
-# Supporting Indicators
+# Supporting Indicators -------------------------------------------------------------------------------
 dfSupp <- read.table(
   file = "data/indicators_eutro.txt",
   quote = "",
@@ -56,6 +65,33 @@ dfSupp <- read.table(
          Obs,
          Threshold)
 
+df_GR <- read.table(
+  file = "C:/Data/GitHub/MESHplus/data/HEAT/indicators_GR.txt",
+  quote = "",sep = "\t",header = T,stringsAsFactors = F
+)  %>%
+  select(GridID=GRIDCODE,Indicator,Response,Obs=Status,Threshold=Target)
+
+
+#C:\Data\GitHub\ETC_ICM\Eutrophication\ETC_ICM_Eutro_2019mar\EIONET.R
+df_EIONET <- read.table(
+  file = "C:/Data/GitHub/MESHplus/data/HEAT/indicators_eutro_EIONET.txt",
+  quote = "",sep = "\t",header = T,stringsAsFactors = F
+) %>%
+  select(GridID=GRIDCODE,Indicator=PARAM,Response=Resp,Obs=VALUE,Threshold=GoodMod)
+
+df_TR <- read.table(
+  file = "./data/HEAT/indicators_eutro_TR.txt",
+  quote = "",sep = "\t",header = T,stringsAsFactors = F
+) %>%
+  select(GridID=GRIDCODE,Indicator=PARAM,Response=Resp,Obs=VALUE,Threshold=GoodMod)
+
+dfSupp <- dfSupp %>% 
+  bind_rows(df_GR,df_TR,df_EIONET)
+
+dfSupp_Ind <- dfSupp %>% distinct(Indicator)
+
+
+# ------------------------------------------------------------------------------------------------
 # indicator group information for bio & supporting
 # CHASE data contains information on groups for contaminants (Biota, Sediment,
 # etc.)
@@ -75,7 +111,7 @@ dfGrid <- read.table(
   header = T,
   stringsAsFactors = F
 ) %>%
-  filter(REGION == "Baltic Sea") %>%
+  #filter(REGION == "Baltic Sea") %>%
   select(GridID = GRIDCODE)
 
 # Conversion from CHASE+ contamination Sum (CS) and HEAT+ Eutrophication Ratio
@@ -87,34 +123,13 @@ listER <- c(2.5, 2, 1.5, 1, 0.5, 0)
 
 # Calculate Biology -------------------------------------------------------
 
-# Calculate EQR
-dfBio <- dfBio %>%
-  rowwise() %>%
-  mutate(EQR = approx(
-    x = c(Bad, Threshold, Reference),
-    y = c(0, 0.6, 1),
-    xout = Status
-  )[[2]])
 
-# Add grouping information
-dfBio <- dfBio %>%
-  left_join(dfGroup, by = "Indicator") %>%
-  filter(QE == "Biology", Exclude != 1)
-
-# Average by SubGroup
-dfBioSubgroup <- dfBio %>%
-  group_by(GridID, QE, Group, SubGroup) %>%
-  summarise(EQR = mean(EQR, na.rm = T))
-
-# Average by Group
-dfBioGroup <- dfBioSubgroup %>%
-  group_by(GridID, QE, Group) %>%
-  summarise(EQR = mean(EQR, na.rm = T))
 
 # Average per Grid cell
-dfBioQE <- dfBioGroup %>%
-  group_by(GridID, QE) %>%
-  summarise(EQR = mean(EQR, na.rm = T))
+dfBioQE <- dfBio %>%
+  group_by(GridID) %>%
+  summarise(EQR = mean(EQR, na.rm = T)) %>%
+  mutate(QE = "Biology")
 
 # Calculate Chemistry -----------------------------------------------------
 
@@ -130,18 +145,35 @@ dfChemGroup <- dfChemGroup %>%
   mutate(CS = ifelse(Group == "Bio.Effects", CRavg, CS)) %>%
   select(-CRavg)
 
-# Average per Grid cell
+#Convert CS to EQR
+dfChemGroup <- dfChemGroup %>%
+  mutate(CS = ifelse(CS > max(listCS), max(listCS), CS)) %>%
+  mutate(CS = ifelse(CS < min(listCS), min(listCS), CS)) %>%
+  rowwise() %>%
+  mutate(EQR = approx(x = listCS, y = listEQR, xout = CS)[[2]]) 
+  
+# Average EQR per Grid cell
 dfChemQE <- dfChemGroup %>%
   group_by(GridID, QE) %>%
-  summarise(CSavg = mean(CS, na.rm = T))
+  summarise(EQR=mean(EQR,na.rm=T))
 
-# Convert Contamination Score to EQR
-dfChemQE <- dfChemQE %>%
-  mutate(CSavg = ifelse(CSavg > max(listCS), max(listCS), CSavg)) %>%
-  mutate(CSavg = ifelse(CSavg < min(listCS), min(listCS), CSavg)) %>%
-  rowwise() %>%
-  mutate(EQR = approx(x = listCS, y = listEQR, xout = CSavg)[[2]])  %>%
-  select(-CSavg)
+      # alternatively do average then convert CS to EQR:
+      # Average per Grid cell
+      #dfChemQE <- dfChemGroup %>%
+      #  group_by(GridID, QE) %>%
+      #  summarise(CSavg = mean(CS, na.rm = T))
+      
+      # Convert Contamination Score to EQR
+      #dfChemQE <- dfChemQE %>%
+      #  mutate(CSavg = ifelse(CSavg > max(listCS), max(listCS), CSavg)) %>%
+      #  mutate(CSavg = ifelse(CSavg < min(listCS), min(listCS), CSavg)) %>%
+      #  rowwise() %>%
+      #  mutate(EQR = approx(x = listCS, y = listEQR, xout = CSavg)[[2]])  %>%
+      #  select(-CSavg)
+
+
+
+
 
 
 # Calculate Supporting ----------------------------------------------------
@@ -150,28 +182,37 @@ dfChemQE <- dfChemQE %>%
 dfSupp <- dfSupp %>%
   mutate(ER = ifelse(Response == "+", Obs / Threshold, Threshold / Obs))
 
-# Add grouping information
-dfSupp <- dfSupp %>%
-  left_join(dfGroup, by = "Indicator") %>%
-  filter(QE == "Supporting", Exclude != 1)
-
-# Average by Group
-dfSuppGroup <- dfSupp %>%
-  group_by(GridID, QE, Group) %>%
-  summarise(ER = mean(ER, na.rm = T))
-
-# Average per Grid cell
-dfSuppQE <- dfSuppGroup %>%
-  group_by(GridID, QE) %>%
-  summarise(ER = mean(ER, na.rm = T))
+# Add possible filtering of supporting indicators?
 
 # Convert ER to EQR
-dfSuppQE <- dfSuppQE %>%
+dfSuppEQR <- dfSupp %>%
   mutate(ER = ifelse(ER > max(listER), max(listER), ER)) %>%
   mutate(ER = ifelse(ER < min(listER), min(listER), ER)) %>%
   rowwise() %>%
-  mutate(EQR = approx(x = listER, y = listEQR, xout = ER)[[2]])  %>%
-  select(-ER)
+  mutate(EQR = approx(x = listER, y = listEQR, xout = ER)[[2]])
+
+# Average per Grid cell
+dfSuppQE <- dfSuppEQR %>%
+  group_by(GridID) %>%
+  summarise(EQR = mean(EQR, na.rm = T)) %>%
+  mutate(QE="Supporting")
+
+
+    # alternatively do average then convert ER to EQR:
+    # Convert ER to EQR
+    # Average per Grid cell
+    #dfSuppQE <- dfSuppGroup %>%
+    #  group_by(GridID, QE) %>%
+    #  summarise(ER = mean(ER, na.rm = T))
+
+    #dfSuppQE <- dfSuppQE %>%
+    #  mutate(ER = ifelse(ER > max(listER), max(listER), ER)) %>%
+    #  mutate(ER = ifelse(ER < min(listER), min(listER), ER)) %>%
+    #  rowwise() %>%
+    #  mutate(EQR = approx(x = listER, y = listEQR, xout = ER)[[2]])  %>%
+    #  select(-ER)
+
+
 
 
 # Combine Biology, Chemistry & Supporting ---------------------------------
@@ -181,7 +222,8 @@ df <- dfGrid %>% left_join(df, by = "GridID")
 # Calculate the worst (minimum) EQR for each Grid cell
 df_worst_EQR <- df %>%
   group_by(GridID) %>%
-  summarise(EQR = min(EQR, na.rm = T))
+  summarise(EQR = min(EQR, na.rm = T)) %>%
+  mutate(EQR=ifelse(is.infinite(EQR),NA,EQR))
 
 # find the quality element responsible
 df_worst_QE <- df_worst_EQR %>%
@@ -197,6 +239,7 @@ df_worst_QE <- df_worst_QE %>%
 
 # arrange QE EQR values in columns (wide)
 df_QE <- df %>%
+  filter(!is.na(EQR)) %>%
   spread(key = QE, value = EQR) %>%
   mutate(
     Cat_Bio = ifelse(Biology == 1, 1, 5 - floor(5 * Biology)),
@@ -209,39 +252,7 @@ df_MESH <- df_QE %>%
   left_join(df_worst_QE, by = "GridID") %>%
   mutate(Cat_MESH = ifelse(EQR == 1, 1, 5 - floor(5 * EQR)))
 
+df_MESH <- dfGrid %>%
+  left_join(df_MESH,by="GridID")
 
-
-# EPSG:3035
-df_MESH2 <- df_MESH %>%
-  mutate(n=regexpr("km",GridID)) %>%
-  mutate(x=ifelse(n==3,as.numeric(substr(GridID))))
-
-ggplot(data=df_MESH)
-
-GridXY<-function(df,var="GridID"){
-#100kmE44N35      7,8 10,11 
-# 20kmE432N350    6,7 10,11,12
-  df <- df %>%
-    mutate(n=regexpr("km",GridID)) %>%
-    mutate(x=ifelse(n==3,10000*as.numeric(substr(GridID,6,8)),100000*as.numeric(substr(GridID,7,8))),
-           y=ifelse(n==3,10000*as.numeric(substr(GridID,10,12)),100000*as.numeric(substr(GridID,10,11))))
-  return(df)  
-  
-}
-
-df_MESH2 <- GridXY(df_MESH)
-# Save Results ------------------------------------------------------------
-
-
-# write the results to text file for plotting in ArcGIS
-write.table(
-  df_MESH,
-  file = "results/20181218/MESH_Baltic.csv",
-  sep = ",",
-  row.names = F,
-  col.names = T,
-  quote = F,
-  na = ""
-)
-
-save(dfBio,dfBioGroup,file="results.Rda")
+#
