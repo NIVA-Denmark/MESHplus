@@ -229,7 +229,7 @@ df_MESH <- dfGrid %>%
   left_join(df_MESH,by="GridID") %>%
   mutate(Worst=ifelse(EQR<0.6,Worst,"-"))
 
-# calculate area for status classes ---------------------------------------------------
+# ----- calculate area for status classes ---------------------------------------------------
 areafile<-"data/Grid_sea_area.csv"
 dfarea<-read.table(areafile, quote="",sep=",", header=TRUE, fileEncoding="UTF-8", stringsAsFactors=FALSE) %>%
   select(GridID=GRIDCODE,Area_km2=SEA_KM2)
@@ -240,22 +240,40 @@ df_MESH <- df_MESH %>%
 df_MESH <- df_MESH %>%
   mutate(CoastOff=ifelse(substr(GridID,1,4)=="20km","Coastal","Offshore"))
 
+# we shouldn't have "no data" in Baltic - CHECK this out!
+df_MESH <- df_MESH %>%
+  mutate(drop=ifelse(is.na(Cat_MESH),ifelse(REGION=="Baltic Sea",1,0),0)) %>%
+  filter(drop==0) %>%
+  select(-drop)
+
+
 df_area_total <- df_MESH %>% 
   group_by(REGION,CoastOff) %>%
   summarise(Area_total_km2=sum(Area_km2,na.rm=T))
 
 df_area_sum <- df_MESH %>% 
-  group_by(REGION,Cat_MESH,CoastOff) %>%
+  mutate(PA=ifelse(is.na(Cat_MESH),"nodata",ifelse(Cat_MESH>2,"PA","NPA"))) %>%
+  group_by(REGION,CoastOff,PA) %>%
   summarise(Area_km2=sum(Area_km2,na.rm=T)) %>%
   left_join(df_area_total,by=c("REGION","CoastOff")) %>%
   ungroup()
 
 df_area_sum <- df_area_sum %>%
   mutate(pct=Area_km2/Area_total_km2) %>%
-  mutate(Cat_MESH=ifelse(is.na(Cat_MESH),0,Cat_MESH)) %>%
   select(-c(Area_km2,Area_total_km2))
 
 df_area_pct <- df_area_sum %>% 
-  spread(key=Cat_MESH,value=pct) %>%
-  rename("No data"="0",High="1",Good="2",Mod="3",Poor="4",Bad="5")
+  spread(key=PA,value=pct) %>%
+  mutate(nodata=ifelse(is.na(nodata),0,nodata),
+         NPA=ifelse(is.na(NPA),0,NPA),
+         PA=ifelse(is.na(PA),0,PA)) %>%
+  mutate(coverage=(PA+NPA)/(nodata+PA+NPA)) %>%
+  mutate(PApct=PA/(PA+NPA),NPApct=NPA/(PA+NPA)) %>%
+  select(-c(PA,NPA)) %>%
+  rename(NPA=NPApct,PA=PApct)
+
+df_area_pct <- df_area_total %>%
+  left_join(df_area_pct,by=c("REGION","CoastOff")) %>%
+  select(-nodata)
+
 
