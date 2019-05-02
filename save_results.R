@@ -24,3 +24,14 @@ write.table(
   na = "-999"
 )
 #save(dfBio,dfBioGroup,file="results.Rda")
+
+
+write.table(
+  df_area_pct,
+  file = paste0("results/",folder,"/area_percent.csv"),
+  sep = ",",
+  row.names = F,
+  col.names = T,
+  quote = F,
+  na = "-999"
+)

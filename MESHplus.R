@@ -10,7 +10,7 @@ library(tidyverse)
 # we apply one-out all-out between these 3 QEs all other aggregation is done by
 # averaging
 
-# Biodiversity (NEAT) already uses a 0.0-1.0 scale conversion for HEAT+
+# Biodiversity (BEAT+) already uses a 0.0-1.0 scale conversion for HEAT+
 # Eutrophication Ratio (ER) and CHASE+ Contamination Ratio (CR) is done using
 # the following fixed points:
 # CS <- 0 ,0.5, 1.0, 5.0, 10.0, 50.0
@@ -144,7 +144,7 @@ dfChemGroup <- dfChemGroup %>%
   mutate(CS = ifelse(Group == "Bio.Effects", CRavg, CS)) %>%
   select(-CRavg)
 
-#Convert CS to EQR
+# Convert CS to EQR
 dfChemGroup <- dfChemGroup %>%
   mutate(CS = ifelse(CS > max(listCS), max(listCS), CS)) %>%
   mutate(CS = ifelse(CS < min(listCS), min(listCS), CS)) %>%
@@ -155,25 +155,6 @@ dfChemGroup <- dfChemGroup %>%
 dfChemQE <- dfChemGroup %>%
   group_by(GridID, QE) %>%
   summarise(EQR=mean(EQR,na.rm=T))
-
-      # alternatively do average then convert CS to EQR:
-      # Average per Grid cell
-      #dfChemQE <- dfChemGroup %>%
-      #  group_by(GridID, QE) %>%
-      #  summarise(CSavg = mean(CS, na.rm = T))
-      
-      # Convert Contamination Score to EQR
-      #dfChemQE <- dfChemQE %>%
-      #  mutate(CSavg = ifelse(CSavg > max(listCS), max(listCS), CSavg)) %>%
-      #  mutate(CSavg = ifelse(CSavg < min(listCS), min(listCS), CSavg)) %>%
-      #  rowwise() %>%
-      #  mutate(EQR = approx(x = listCS, y = listEQR, xout = CSavg)[[2]])  %>%
-      #  select(-CSavg)
-
-
-
-
-
 
 # Calculate Supporting ----------------------------------------------------
 
@@ -195,24 +176,6 @@ dfSuppQE <- dfSuppEQR %>%
   group_by(GridID) %>%
   summarise(EQR = mean(EQR, na.rm = T)) %>%
   mutate(QE="Supporting")
-
-
-    # alternatively do average then convert ER to EQR:
-    # Convert ER to EQR
-    # Average per Grid cell
-    #dfSuppQE <- dfSuppGroup %>%
-    #  group_by(GridID, QE) %>%
-    #  summarise(ER = mean(ER, na.rm = T))
-
-    #dfSuppQE <- dfSuppQE %>%
-    #  mutate(ER = ifelse(ER > max(listER), max(listER), ER)) %>%
-    #  mutate(ER = ifelse(ER < min(listER), min(listER), ER)) %>%
-    #  rowwise() %>%
-    #  mutate(EQR = approx(x = listER, y = listEQR, xout = ER)[[2]])  %>%
-    #  select(-ER)
-
-
-
 
 # Combine Biology, Chemistry & Supporting ---------------------------------
 df <- bind_rows(dfBioQE, dfChemQE, dfSuppQE)
@@ -251,11 +214,7 @@ df_MESH <- df_QE %>%
   left_join(df_worst_QE, by = "GridID") %>%
   mutate(Cat_MESH = ifelse(EQR == 1, 1, 5 - floor(5 * EQR)))
 
-df_MESH <- dfGrid %>%
-  left_join(df_MESH,by="GridID") %>%
-  mutate(Worst=ifelse(EQR<0.6,Worst,"-"))
-
-#
+# Join MESH results to Grid information
 
 dfGrid <- read.table(
   file = "data/HEAT/grid_all.txt",
@@ -265,3 +224,38 @@ dfGrid <- read.table(
   stringsAsFactors = F
 ) %>%
   select(GridID=GRIDCODE,REGION)
+
+df_MESH <- dfGrid %>%
+  left_join(df_MESH,by="GridID") %>%
+  mutate(Worst=ifelse(EQR<0.6,Worst,"-"))
+
+# calculate area for status classes ---------------------------------------------------
+areafile<-"data/Grid_sea_area.csv"
+dfarea<-read.table(areafile, quote="",sep=",", header=TRUE, fileEncoding="UTF-8", stringsAsFactors=FALSE) %>%
+  select(GridID=GRIDCODE,Area_km2=SEA_KM2)
+
+df_MESH <- df_MESH %>%
+  left_join(dfarea,by="GridID")
+
+df_MESH <- df_MESH %>%
+  mutate(CoastOff=ifelse(substr(GridID,1,4)=="20km","Coastal","Offshore"))
+
+df_area_total <- df_MESH %>% 
+  group_by(REGION,CoastOff) %>%
+  summarise(Area_total_km2=sum(Area_km2,na.rm=T))
+
+df_area_sum <- df_MESH %>% 
+  group_by(REGION,Cat_MESH,CoastOff) %>%
+  summarise(Area_km2=sum(Area_km2,na.rm=T)) %>%
+  left_join(df_area_total,by=c("REGION","CoastOff")) %>%
+  ungroup()
+
+df_area_sum <- df_area_sum %>%
+  mutate(pct=Area_km2/Area_total_km2) %>%
+  mutate(Cat_MESH=ifelse(is.na(Cat_MESH),0,Cat_MESH)) %>%
+  select(-c(Area_km2,Area_total_km2))
+
+df_area_pct <- df_area_sum %>% 
+  spread(key=Cat_MESH,value=pct) %>%
+  rename("No data"="0",High="1",Good="2",Mod="3",Poor="4",Bad="5")
+
